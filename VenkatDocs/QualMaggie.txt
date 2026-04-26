@@ -1,0 +1,1272 @@
+llars and you want to
+go deep on understanding his systems and processes for how he did it primarily with a momentum based swing trading
+breakout strategy then this is the video that's going to explain it to you there are plenty of kwalamagi videos out there
+on YouTube than the like but this is a summary of the systems and processes and thinking about his strategy from five
+key Parts how does he identify trades how does he initially control the risk how does he mitigate risk on the trades
+how does he optimize the profit and then also have a deep dive into his mindset and also think about things from a
+deliberate practice standpoint how on Earth did he get so good at trading and how can you try and repeat the success
+that he has had Market Smith are the sponsor of this video you'll see a couple of charts throughout this
+presentation certainly as we're talking about the screening and fundamental side of things there is a discounted trial
+available in the comments section below if you are interested and with all of that out the way let's start getting into the systems and processes for how
+qualamagi turned five grand into 100 million dollars so let's begin with
+kwalamagi's returns this was a print screens from one of his twitch streams so you can see in 2011 he actually blew
+out trading accounts around about three or four times but you can see from 2020 11 to 2020 including these big down
+years that is an average annual return of 268 if you take out the two down years and go from 2013 it is around
+about 350 so absolutely phenomenal returns how on Earth did he do it what are the systems and processes that he
+used well you're watching The Right video let's get into it so strategy overview we're thinking about long setup so kwalamagi has a three main setups two
+of those along one of those are sure the two long setups are continuation based breakouts so that is basically breakouts
+from Flags vcps Darvis boxes cup and handles of the like then Auto episodic pivots one on earth a data are basically
+Gap up bass breakouts he also has the parabolic short but we're not going to go into shorting in this video we're going to keep it very much focus on the
+long side so if I could summarize the strategy in about two sentences it would be this trade leading momentum stocks
+from these setups with asymmetric risk reward potential I.E little risk lots of upside once in the position mitigate
+risk and keep part of the position to ride the short slash intermediate term Trend which Crown mangy defines as the
+10-day and or 20-day moving average it gives much more emphasis to the 10-day moving average certainly for the quicker
+momentum stock so this is just a little visual here to give you a flavor of the type of things we are going to be
+looking at so you will see throughout this presentation that koala Maggie refers to setups that just repeat time
+and time and time again and he puts a significant emphasis on deliberate practice if you don't know what deliberate practice is and the xeroxen
+wrote a book called Peak which is absolutely fantastic for how we actually learn and how you master a skill trading
+is a skill set so by the end of this video you'll have a much better understanding of the knowledge but then also the steps you need to take to
+develop the skill sets great to have the knowledge but you need to have the skill set so what are the repeatable patterns that that just happened time and time
+and time again and kwara Maggie refers to it many times about going back studying history and having thousands
+tens of thousands of stocks in your chart model database it's in essence it boils down to these these four there's a
+lot of variations but in essence it's these four it's Flags triangles Penance vcps it's cup and handles it's flat
+bases also known as Darvis boxes and its wedges which is slash a volatility contraction pattern low mid pivot they
+are basically the four job four trial patterns you'll see these momentum leaving stocks put in time and time and
+time again so let's keep going down and down and down so remember we're starting off high and we're going further and
+further and further into the weeds so identify how stocks move so while you're looking at this video I'm just going to
+read a little bit to you so these are quotes from Kuala Maggie stocks cryptos and all assets classes they move like
+stairs so this is the basic premise how do stocks move how do cryptocurrencies move and I've got lots of examples to go
+through including quizzes to try and make it a little bit more engaging for you as we go this is how they move
+generally they make a move then they go sideways or pull back make another move go sideways or pull back make another
+move this is how stocks move study any stocks that are up hundreds or thousands of percent over many years this is how
+they move they move instead our job is to buy here our job is not to buy here
+not to buy here not to buy over here our job is to buy it here so our job is to buy at the exact time it starts to build
+the next step higher so here basically when it's breaking out of those consolidations so there's continuation
+base patterns cup and handles vcps Flags wedges pennants whatever you want to call it so our job is to buy as it's
+breaking out now I'm not going to be 100 correct my win rate is 25 that probably
+threw you off a little bit there didn't it the key is all about small losers bigger winners so small losers Big
+Winners we're going to get all into the asymmetric rest award where you place your initial stop loss as we progress throughout then you get the moving
+averages the 10 day the 20 day and the 50-day the leading stocks keep surfing
+those moving averages this is a continued theme you are going to see throughout so the next two slides are a
+little bit tax heavy but they need to be there for you to start understanding the strategy then as we start progressing
+we're going to get into lots and lots of slides as you can see and the quizzes so it's the same theme a big move then a
+pullback or sideways consolidation and then the stock starts finding support or surfing one of the moving averages it
+could be the 10 day the 20 day the 50 day and many times it's a combination of two of them you're going to see that
+when we start looking at setups usually the 10 and 20 day then it gets Tighter and it breaks out of that Ridge it's
+just the same theme over and over this is how stocks move this is how stocks have moved over the past 100 years go
+back and look at charts from the 1920s 50s 80s 90s they do the same thing over
+and over again you just need to memorize these patterns remember those patterns I was showing you stocks move like stairs
+leg higher sideways leg higher sideways we are trying to identify the areas where the next step higher could be
+formed tight areas we're looking for tight areas where we can get a tight stop and a good risk to reward this is
+how stocks have moved for a hundred years and there's no reason they shouldn't stop moving like this you need
+to build a database this is thinking about the deliberate practice element you need to build a database with thousands of stocks if you don't spend
+at least 500 to a thousand hours studying this one single setup it's super simple it's not easy but it's
+simple but you still need to study hundreds hundreds of hours thousands of hours over the next few years that's how
+you master it and make millions tens of Millions with this one setup you can make tens of millions if you spend 1 000
+hours studying these setups you're going to figure out the variations of the setups as well now quality in a tweet on
+the 17th of February 2023 I sound like a little bit of a stalker here don't I but he said he now uses the 10-day
+exponential extra potential moving average instead of the instead of the simple so slight change a slight change
+that I use 10 email as well not that you potentially care I rarely buy stocks below the 50-day moving
+average who wants the stronger momentum stocks which invariably when they're building the pivots when they're getting Tighter and Tighter and Tighter are
+actually above their 50 day quite commonly you will see them around the 10 and 20 moving averages for this method
+you don't need to scale in you buy everything at once one but you need to scale out so sell one third or half of
+your position after three to five days and then use the 10-day moving average as your trailing stop then when the
+stock closes below the 10 day you sell the rest now I know there's a lot of information coming at you very early on
+in this video as we progress throughout and you make it towards the end of this video it's all going to start clicking it's all going to start making sense
+obviously you can't determine early in the day whether it being the stock is going to have higher volume especially
+if you're trading liquid Min large cap stocks they always have volume so you don't need to worry about it so high volume around the pivot you need clean
+setup something that keeps surfing that isn't all over the place choppy around moving averages so some socks have
+really nice clean moves as you're going to see others just chop around chop around chop around and you want to avoid the choppy stocks as you get into the
+trade management you're just going to get chopped around you'll see some examples just because it's a good setup doesn't mean it's going to work it's
+quite a mindset his win rate is around about 20 25 or so so let's start higher and then work down
+so thinking about the market environment now the key moving averages to be paying attention to on this chart here are
+going to be the black line which on my charts is the Tenny made the blue line which is the 21 EMA which you can kind of think of as a 20-day moving average
+on color monkey charts and then the purple line is the 50 SMA so black blue and purple are going to be the key
+moving averages for you to be paying attention to here so just study this chart and I've color coded it to basically show when these moving
+averages and the market is turning up and then turning down and then think about this as trading environments because not every strategy is going to
+work fantastically well across every single Market environment sometimes the market goes up sometimes Market goes
+down sometimes Market goes sideways right any type of breaking breakout or momentum strategy is going to work best
+when the market is in momentum mode what is momentum mode we'll get on to it sometimes you have to be in cash for
+weeks and months on M when the market is not good think about those red areas you don't need to trade all the time it's
+it's fine to sit on cash for months on end it's easier said than done then NASDAQ Composite is the relevant
+Index this is IX IC if you're wondering you don't need to look at anything other than the NASDAQ 90 of the stocks I trade
+are in the NASDAQ generally you want to see what what you want to see is the 10-day sloping higher and the 20 day is
+sloping higher and the 10 day needs to be above the 20 day so you see here I have the black line above the blue line
+also trending nicely above the purple line as well it's fine if it undercuts
+it a little bit for a while but that's the general that's the general rule so if it's undercutting it a little bit
+that's okay but generally speaking you want to see it trending up here's kind of a good example for where the trend is up but it does kind of undercut it
+briefly a couple of times but moving averages sloping up 10 above the 20 20 above the 50 would be an ideal
+environment if you get breakouts when the 10 and 20 day moving averages are sloping down in the NASDAQ comp and the 10 days below the 20 day there's a high
+failure rate you probably shouldn't swing trade on the long side so kind of indicated that with the red zones every year there's usually a three to six
+month period That's challenging you'll make little or no money and that's fine when you get these runs that last for
+three to six months where you can but then you get these runs where that last for three to six months where you can double and triple your account you just
+have to wait for those periods you have to wait it out so what he's saying there is wait for the market to be good for
+your strategy know where your strategy performs better performs worse when it's in a period it may be a little bit of a
+kind of a a trade trade holic like me potentially but just be trading smaller during those type of periods understand
+it's going to be it's going to be um it's going to be tougher period so let's go into the next slide now this is where
+we're going to start breaking it down a little bit more we're going to look at breakouts I'm going to give you quizzes I've cut off the chart at the actual
+kind of like trigger point bar so we're quite like you would then be looking to enter the trade and taking trades that
+he discussed and spoke about five star seven star kind of setups and then we'll be doing quizzes for them so we're
+really going to try and help you with your pattern recognition again we're just starting here with a bit of an overview and then working our way down
+so what are you looking for and we're looking at continuation pattern breakouts so that's going to be your
+flags your pennant your Darvis boxes your vcps your cup and handles so on and so forth so on here obviously the white
+line is priced the green line is going to be a trend line and then for the purpose of this the yellow is the 10 day
+the blue is the 20 day and then the purple is the 50 day so number one a big move high in the past one to three
+months anywhere from 30 to 100 plush and usually the rally lasts a few days to
+weeks orderly pull back in consolidation with higher lows so higher lows are like
+this so if you look at what price is doing here see from here so this is the high here it pulls down bounces makes a
+lower high but then it puts in a higher low so this High here or this low is higher than this low so it's making
+higher lows very important concept orderly pull back in consolidation with higher lows and tightening range in the
+consolidation phase it's very similar if you've read minivini's book The volatility contraction pattern volatility contracts from left to right
+preferably volume drying up as well a breakout of the consolidation the consolidation phase is usually two weeks
+to two months so somewhere between two weeks and eightish eight-ish weeks maybe 10-ish weeks as well during the consolidation phase the stock surfs the
+rising 10 and or 20-day moving average and sometimes the 50. so this is an important point and we'll get on to it
+I'll explain it on the on the next slide so as the stock is going up here and you'll see this on the examples ideally
+you want to see the share price staying above the 10 day and the 21 Day it may come down and kind of test and reverse
+quickly that's good behavior as the base is starting to build you would like to see the stock respecting either the 10
+days it's doing here see how it pulls down bounces pulls around bounces off bounces off and then tightens around the
+10-day so you ideally you'd like to see stocks that respect the moving averages that you are going to be using from a
+trade management standpoint you don't want to have the stocks they're just chopping around like this all over the place they're going to be an absolute
+nightmare so number one how to trade it enter on opening range highs and you might be like what on
+Earth what on Earth is opening range Heights don't worry got slides on it we're going to be explaining everything this video is extremely thorough
+enter on opening range highs so orh for the first one five or 60 Minute Candlestick the first 60 Minute
+Candlestick caveat is actually a 30 minute candle set because the six and a half trading hours in the session you can use whatever time frame or
+combination you don't have to use intraday charts enter when the stock is starting to break out so basically you're trying to identify these pivot
+Points and enter pretty much as soon as you can when the stock is starting to break out the stop is always lows of the
+day so lows of the breakout day and should not be wider than the ATR which is the average two range or ADR which is
+the average daily range so one is a number one is a percentage we're going to talk about that a little bit later do
+not worry of the stock to keep the risk versus Ward variable and you might already be going like what is going on
+don't worry so we're going to make sense again this is detailed stuff it's in the ways you don't go from five grand to 100
+million and it's all kind of broad brush vague fluffy Duffy stuff okay then so one third or one half of the position
+after three to five days so once you're in the trade after three to five days so one third or one half of the position
+this comes into the mitigation Parts remember we're looking at identify control mitigate and optimize we're going to go deep on all of them the rest
+of the position should be trailed with the 10 or 20 day moving average depends how fast the stock is if a beginner
+stick to the 10-day wait for the first close so not intraday if price is going underneath wait for the first close
+below the 10-day oftentimes you can see kind of shake out demand tails undercutting the level so
+what I've got here and we've got well I don't know maybe at least 10 examples like this if not more and then we're
+actually going to look at Bitcoin we're going to look at eth as well and I've tried to make this section here interactive for you I appreciate you'll
+probably just sat there looking looking at your laptop board you're probably surfing Netflix and other things like that so in this section here I've really
+tried to involve you and try and help you train your pattern recognition skills so these are then quotes from
+kwalamagi and he's specifically talking about the setup that I am showing you so this is coming from the horses map so
+prts this is a seven star setup on a five-star scale big big move go sideways
+build a tight range look how tight it gets breaks out and boom memorize this
+so I'll just break down the first couple for you so you start getting it a little bit more but I've tried to make some annotations so if you look at the trend
+here the stock goes from a couple of dollars up to a high here of about 9.50 do you see how not once it closes below
+it's 10-day moving average and on my chart here it's actually and my jot is actually the 10 the 10U do
+you see how it just Trends perfectly along the whole the whole time this is really really really good to see it
+holds here it holds here a little shake out demand tail here and then it starts going into this tightening range holds
+above the 21 EMA here then it goes tight tight tight tight tight and the volume dries up so this here memorize this
+seven star setup on a five-star scale there's somewhere qualamagi refers to it
+as a six star setup or a five and a half star setup but this is the only one I could find where he says seven star
+setup on a five star scale this is this is my interpretation and from my own
+kind of experience as well this is pretty much as good as it gets for a high type flight but note the cleanness of the move so this is what you want to
+see now what I've done is then showed you the aftermath as um as well the aftermath that's the wrong word isn't it
+what happened afterwards basically so here you go there's the breakout coming through here tight tight tight tight see
+how it just surfs the 10 day and then little bounce off near the 21 EMA the blue lines are 20 I want to email my job
+I like the 21 EMA rather than the 20 day that's from my own evidence experience and things like that but see how tight
+it gets in it but for the purpose of this it's pretty much a 20-day moving average okay and then tight and then breaks out let's do another one so
+AMD this is a stick six star setup on a five-star scale you've got to memorize
+this you don't get many of these look how tight it is bounces perfectly off the 20 day here and then gets really
+tight here look how tight it gets but do you see here this is a real subtle point but a really important Point look how
+smooth the trend is before the stock even starts basing so the prior uptrend
+you want to see the stock saying above all the key moving averages it's okay if it comes down a couple of times like
+this see how it holds the 10 hits see how it holds the 10 hit there's actually a gap down reversal bar underneath the
+21 then it's tight tight tight look how the volume dries up six star setup on a five star scale there it is see how
+tight it gets and then the trend thereafter really really really good setup exceptional setup apps
+this is a five and a half star so we've gone seven star six star five and a half star okay this is a five and a half star
+setup on a five star step on a five star step memorize this startup stock makes a
+big move see how it holds the ten holds the ten and the ten and the 21 in here and in here as well go sideways surf's
+the 20 day which in essence is this blue line here okay see how it holds it it builds higher lows then a tight range in
+here see how tight the stock gets and then a high volume breakout let's say the next one there it is there's the
+setup and then see how well it Trends there afterwards so the the trending point before the base I'm just going to
+emphasize this the best and this is my own anecdotal experience the best indication for how stock is going to act
+in the future is how did it act in the past so if you get a really nice trending stock pre-base it's more likely
+that it's going to be a really nice trending stock post base you don't get another five star setup in here look how
+tight it gets really really good another one here this is Celsius so it makes a big move here you go makes
+a big move surfs on the 10 and 20 day moving averages starts building high lows off the 20-day takes out this tight
+range this is a nice 5 star high tide flag so you see here nice uptrend big move holds in here then it's tight tight
+tight starts building high lows in here nice flag nice bit of ECP action look how the volume dries up okay here it is
+here's the setup in here see how it comes out of this base starts trending high lows tight bar in there and then
+off it goes next one Kodak this is a six star setup on a five star scale makes a big move it gets Tighter and Tighter
+builds higher lows goes from surfing the 10-day to surfing the 20-day has a range that gets Tighter and Tighter has a
+really narrow range day before the breakout and then it breaks out on a higher volume that's the perfect setup
+does it sound like I'm repeating myself in these slides that is the whole point
+of it okay it's a repeatable process these stocks do the same things the same
+patterns the same behavior characteristics in terms of the price action in terms of volume in terms the relative strength where the stock is
+setting up into in relation to key moving averages what it does it's specifically before the breakout I.E it
+gets Tighter and Tighter and Tighter Bill Tyler is round the key moving averages the volume same thing keeps on happening study them
+learn breaks out here doing it will go at 588 in five sessions absolutely not
+but you're trying to position yourself in front of stocks that can go up 588 in five sessions and you're trying to study
+deliberately what did a stock do before it went up 588 in five sessions what did
+it do are there other stocks that did similar things can I profit from that can I be um can I basically profit from that that's
+uh I can't say anything but I'm not to be honest you this one very good setup x e e x p i so see how the stock makes a
+big move here pulls into the 10 to the uh 2021 in here and then it bounces again it has a nice checkout demand out
+underneath the 10 reclaims volume drives up it's a really good setup there it is that you could also look at it as maybe
+a cup and handle with a high handle or a fly type Banner but see the trend unfold afterwards and then you want to try and
+ride the intermediate downtrend fastly five star setup right here so see how the stock is trending see how it holds
+the 10 in here then it holds the 10 in here see how it gets really tight there's this inside bar here look how the volume dries up same things are
+happening no the relative strength line as well look at the reaction to the earnings big volume on the earnings positive reaction then the trend
+thereafter you'll see those are quite a little bit later that an EP so an episodic pivot which is basically a gap
+up bass breakout that can often be the start of the trend so what you can have a stock that's been basing for
+kind of six months a year a couple of years then suddenly this earnings report comes out and it catches a lot of the large operators off guard so suddenly
+they then start piling into it so then you get this really nice post earnings uptrend which you'd like to see do what trend above the key moving averages and
+bounce off of them the 10 and the 20 right and then go and build a high-type flag at vcp Carbon handle whatever it
+may be so here's fastly there's the setup there's the trend there afterwards that was another very good setup there
+um in my view perfect setup here this is a six star setup on a five-star scale this is a ridiculously good setup okay
+this one here so see how the stock makes a big move oh look notice notice the reaction to the earnings and the volume
+coming through in the 52 economic if you want to use that it's free tool search my name on trading View and the indicators you will you will find it and
+then you just pin it to the bottom of your chart like this where you could have it on your chart whatever you want to do so the stock Powers up here holds
+the 10 then it pulls back down to the to the uh 2021 in here and then see how you actually get those of you who've read
+Darvis book darvis's box um Darvis is what he's gonna his Darvis book book will be familiar with the Darvis box
+which is basically a rectangle it's quite common to actually see a little Darvis box play out in three sessions
+five sessions before so see how it just tightens up here along the 20 for me the blue lines of 21 email just
+use 21 EMA but the the 20 day is pretty much where the 21 em is there's not much between them for these for these ones
+here so see how it just tightens up in here look at this ridiculously tight bar so I'll just go into a little bit of
+waxing lyrical about supply and demand why is this really tight bar on low relative volume important what does it
+actually tell you from supply and demand it tells you there isn't much Supply that's coming to the market that's really good for you to know if you're
+targeting a breakout second fold it also indicates that you could go in with a very tight stop loss as well interesting
+we'll come to that later so here it is here's the breakout here's the trend and qualamagi saying on this docket this is
+why I advocate trailing some of your shares on the 10 day because sometimes you can catch something like this so
+he's talking about this move here where it goes up 226 percent something like this these things are
+really going to add to the bottom line of your accounts you catch a few of these now and then oh man these are the ones that are going to grow your account
+exponentially next one Overstock this is a five star
+setup so see the run the stock has here pulls down bounce off the 21 holds around the 10 21 in here holds in here
+and then look it's these tight candlesticks coming up again tight tight tight look how the volume dries up tight
+tight see how the stocks building higher lows within the base they look like the same thing keeps happening it's because
+it is right tight tight tight there's the breakout goes up 319 before it
+closes below the 10 and 21 day EMA's I'm telling you if you catch some of me these these
+moves then he's specifically talking about Overstock this is up 300 from this trigger breakout you catch these kinds
+of Trades now and then these are the ones that are gonna grow your account so quality monkey as you'll see as we get into the kind of optimizing profits
+phase of this presentation really focuses on getting the big ones right getting the Home Run trades right there
+is no point if a stock is going to go up 300 for a closest blow the the 10-day say and you sold it out at 20 and you
+think oh that's really good all right two percent I sold it at 20 that's 10 times my initial risk yeah but if it goes up 300 you completely miss the
+point basically next slide codex oh I jump forward too far so code access one
+here look at this thing it's all it always finds support on the 50 day so the purple line in here in here in here
+in here keep surfing the 50 day these are the only technical indicators you need the 10 day the 20 day and the
+50-day moving averages you don't need to look at intraday charts this is all you need to make millions literally so see
+how it's building higher lows it's finding sport of action around the 50 day and then there's the result there
+powerful breakout up up it goes but then what do you notice here see how it U turns it so I didn't just want to show
+you ones that go up 500 or whatever I want to show you ones that actually the stock makes a big move but then look how
+it used turns this is why as I've noted here the cell rules really really really matter there's the First clothes below
+the tender in there Etsy this is a five-star setup take a screenshot of this memorize this pattern so the stock
+makes a big move and then it pulls down Fine support around the 21. see how it pulls down higher lows there's that
+little Darvis box building again look how it's a tight bar nearly an inside bar sitting on the 10 and 21. look how
+the volume dries up look at the 52-week eyes and it goes right and you could look at that as a those are your study
+mini Vinnies were a bit of a vcp right one contraction two contraction three contraction tight tight tight tight tight really good next one Fiverr I can
+immediately see a five star setup and in a couple of slides time I'm going to be giving you a quiz where I put a blank chart and asking you can you see the
+setups so again trying to really help you dial in training pattern recognition here five out I can immediately see a
+five star setup look how the stock makes a really good move and look how it's stays above it's 10 EMA the whole time a little kind
+of shake out in here and then it recovers then it pulls back down holds on its 21 for my chart here and then
+puts in this high low Darvis box in there and then see how the volume dries up interesting and then
+there you go there's the breakout there's the track so I will come on to a little bit later
+on talking about the 10 day and the 21 um and showing you some stats that I that I ran my um myself so
+here we go can you identify the three five star setups and these are five star
+setups as Carla Maggie defines them as you are going to see on the next side so here you go can you find the three five star
+setups on this chart as I said I want it to be engaging I'm going to try and um one try and involve you in this so those
+three can you find the three I'll show you three two one there they are
+number one here is it this is koala monkeys quite here is a five star setup number two this was an even better setup
+look how tight it got so see how it's building high lows one contraction two contraction three contraction full
+contraction high lows high lows high lows just tightening up on the 10-day look how the volume dries up look how
+tight it got the tightness is really really key number three here another five star setup boom look at this see
+how tight it got before it gaps up and breaks out there look at the relative shrimp line as well let's do another one can you identify
+the two five star setups and two other good setups so we're looking for two
+five star setups and then we're looking for two good setups two five star two
+good setups three two one there we go this was a really good setup these are
+koala Maggie's quotes as he was looking at the track this was a really good setup not a five star because the previous days Canada was kind of loose
+so you see how it wasn't so he's talking about the breakout here the pry bar it was kind of loose it's pretty good bar
+but it's kind of loose it's not as tight as some of the other ones and it had been building higher lows this one in
+here this is a five star setup see how tight it got high lows see how it's tightening little Darby's box action again another one here this is a five
+star setup but it would have stopped you out because three bars later so this bar later see how it breaks out here and
+then here it took out the loads of the day so koala Maggie will buy the breakout opening range highs and then stop loss level today so this bar here
+stopped him out and then the blue arrows I've just highlighted another two I think they're very good setups I think
+this is a five star setup for me and I think this also is a five star setup this is a really good chart to study
+let's do another one can you see the five star setup and the 3.5 star setup so there's a five star
+setup on this chart somewhere and there is a 3.5 star setup as per quality monkeys criteria three two one there you
+go has a big big move look how it keeps surfing the 20-day this bit in here this
+five star one then it keeps getting Tighter and Tighter look how tight it gets as it surfs the 20 day then it has
+a high volume breakout this thing needs to be in your watch list when it starts getting tight so see how it starts
+getting tight here around the 10 and the 20 watt as soon as it starts breaking out that's when you buy it don't worry
+we're gonna go on to how you actually buy them a little bit later on then he's talking about this one in here if you
+were able to find it Well done this is maybe 3.5 star another good setup keep surfing the 20-day build high lows and
+puts in a tight range maybe because you kind of have this bearish day in here it's not as clean as setup um whereas here it's just highlights
+high lows high lows and what chart patterns you see oh it's a nice big cabin handle isn't it interesting look
+at all the 52e cars and well we'll talk about relative strength a little bit later on another one can you identify the setup
+on the 10 day so I use the EMA so 10-day EMA my designing is quite a Maggie
+Newton now uses the 10 EMA instead of the 10 day simple moving average so can you find the setup on the 10-day EMA
+plus a bonus setup three two one there you go so builds a base and starts
+breaking out makes a move surfs the 10 day and then you get the two really tight candles in here tight tight with
+higher lows and then breaks out there's your breakout that's a good setup and I also think this one here for me that's
+the five star setup see good reaction to the earnings a little bit of a common theme here isn't it good reaction to the
+earnings then it goes and builds a post earnings earnings um base builds the high loads look at this
+kind of Darvis box action so I was just basically going sideways building highlights on the base as well but then it gets really really tight you get this
+extremely tight inside bar look how the volume dries up and then see how the stock just Trends it's also why like the
+21 EMA we'll talk about that a little bit later on let's do another one can you identify the four good setups so on
+this chart here there's four really good setups four really good setups three two
+one there they are one in here see how it just gets really tight 10 21 stock is in
+an uptrend look at the 52e cars on the RS line look how the volume dries up this one pointing to the day before the
+breakout look how the volume is drying up below this black line here this is the 30-day average for the volume that's
+what I use on the volume 30 day average see how the volume is drying up on I just call them trigger bars because for
+me they're the last piece of the proverbial jigsaw puzzle right so see how you get this really tight bar these trigger bars coming through really tight
+here really tight in here just ridiculously good setups worth studying but then look how it then
+Trends note what moving average is it then transfer yes you want to study the setups how stocks set up but then how do
+they move afterwards this is all the deliberate practice nature of it this one here so now we're actually going
+into how would you trade opening range highs so how do you actually trade them so I've got some at the time of filming
+this which is um which is in May I've picked out picked out some recent stocks um to talk about opening opening range
+highs so how does Crackle Maggie actually enter them so we're going to be looking at on here okay stop makes a big
+move okay pulls back in find supportive action around its 10 stays above its 21 gets really tight in here inside bar
+look how the volume draws a really good reaction to the earnings huge sales I'm going to show you a market Smith chart of this stock later on huge earnings
+huge sales huge estimates powerful powerful stock pretty new in terms of its IPO so on the next bars or the next
+slides I should say we're going to be looking at the one minute chart the five minute chart and the hourly chart so the
+16 minute chart as well so I'm going to explain how would you trade how do you trade opening range Highs but remember
+it's in the context of we're looking here and then we're looking at this bar here okay and then I also want you to be
+aware of that average daily range percentage which is 4.79 which I will
+explain on the next slide because it all feeds into the risk management so
+let's start talking about remember that price level of 30 9 that was the high of this bar here so
+remember I called them trigger bars for me I'm very very visual how I learn I have ADHD I have dyslexia so for me I
+have to get things out of my head and just make them very visual I can't really keep things in my head I got to get it gotta get it out in front of me
+so concepts for me to kind of then understand things and then try and help me internalize things are really helpful
+so trigger bars that's how I think about them those really tight bars where the volume dries up so I'm just going to refer to them as trigger bars kalamagi
+does not call them drug bars but for me for the purpose of this video to try and teach you the best way I possibly can I'm going to call them trigger boss so
+the high of this trigger bar inside bar tight in the basic now on the ten thirty zero nine as we go to the next side so
+this blue level here okay 309 was the pivot breakout so the high
+of the final Candlestick so where are on the one minute chart so this is the first one minute Candlestick and you see
+how it breaks out above yesterday's high of 30 zero nine okay see how it breaks
+out so opening range highs you're looking for the breakout through the pivot wherever you determine the pivot
+to be so for this example here we're just going to think about the pivot the pivot being the buy point of the prior
+days high which was that really tight candle so that I refer to as a trigger bar so you get the first one minute
+Candlestick it breaks out Fantastic look at the volume coming through I call this bullish synchronicity where you
+basically get why what you get high relative volume and you get a widespread Candlestick okay volume is basically confirming the positive price action
+polishing nasty makes sense right and then you get this Hammer type Candlestick
+then you get this inside Hammer type Candlestick and then you get the breakout so the opening range highs
+depends on what time frame you are using so we're going to look at it on the one minute chart the five minute chart and
+the 60 Minute chart and I've got plenty of examples and we're going to look at these opening range highs through continuation base breakouts so IE stocks
+that are coming out of pivots from vcp's Flags pennants Darvis boxes cupping handles we're also then going to look at
+them for episodic pivots so where the stock basically gaps up on the earnings and is taking out the highs of the base
+and preferably above all the key moving averages this is probably going to be quite hard to understand I'll do my best
+at it put some wraps and stats on the next slide will hopefully start to drill the point out so in essence you are
+looking for the stock to break out show that there is there are a lot of buyers there there is demand there we
+can visually see that in terms of the price action and the volume right and then you are looking for the highs if you are using the one minute chart the
+highs of the first one minute Candlestick assuming it's taken out the pivot as this stock here has done you are then entering as price breaks out
+through the highs of the first one minute Candlestick so the high of this first one minute Candlestick is 30.56 so
+the entry is then through here at thirty dollars fifty six this is the entry now
+that's the opening range Highs but now we've got to start thinking about the controlling risk so I'm jumping ahead a
+little bit and bringing in the controlling risk here as well okay so I was to kind of explain I can't just
+teach you the identified part without the control part we're bringing in the control part while we're talking about the identified part but there is a
+specific section with quotes on controlling risks and thinking about risk but we're jumping ahead a little bit here but we'll catch ourselves up a
+little bit later so then you have to be thinking okay here is the opening range highs on the
+one minute chart it's through here so the entry there's probably going to be some slippage no doubt 30 56. so then
+your stop loss is going to be the low of the breakout day which is where it's the low of this bar
+here which is 29.98 what is that percentage assuming
+perfect execution perfect fillage which is unlikely okay but here 1.89 now I use
+the average daily range rather than the ATR but koala Maggie he uses the ATR but
+he also says you can use the average daily range in essence try and understand the point that I'm trying to get across it so the average daily range
+minus set to 20 days this is the average daily percentage move the stock has made over the last 20 days you can use a TR
+as well which will give you a numerical a numerical figure so it will give you
+dollars or cents or dollars and cents depending on how depending on how much the stock moves so what this is saying
+is the average daily percentage move of the stock over the last 20 days on the daily chart is 4.75 now to keep the risk
+versus reward in check and not getting out of whack which is quite a monkey's own words you'll see that in the controlling risk section as we progress
+a little bit later on ideally you want the initial stop loss to be less than the ATR or the ADR percentage make sense
+so for me I I use the ADR so I'm going to teach you with the ADR but it's pretty much the same thing but if this
+here so let's just say I'll give you the ATR example right let's say your stop is
+going to be from it's just over 1.50 right imagine that your stock was going to be 30 and your entry was 30.56 so
+that would be a dollar a dollar fifty okay a dollar and a half would be your stop so then you could look at the ATR
+and you might see that the ATR the average true range of the stock over the last 20 days is two dollars so therefore
+your one 1.50 stop loss is less than the ATR which we're saying is two dollars
+you can do it that way or if you prefer percentages I personally prefer percentages it just works better for me
+but if you prefer using actual numerical levels in terms of dollars and thinking in dollars and cents use that if you
+work better with the ADR percentage use that it's pretty much of a muchness you're just trying to get stops that in
+relative proportion to how much the stop moves how quick the stock is looking at the ATR or the ADR percentage okay you
+want it to be less than that so here we have that's the last I'm going to kind of touch on ATR I'm just going to refer to it as ADR percentage if I keep
+jumping between them I'm going to confuse myself I'm going to confuse you as well so the average daily range percentage for on o n o n is a ticker
+over the last 20 days is about 4.75 it's a little bit different because it wasn't
+specifically here because I then took this screenshot about two weeks later but either way let's imagine it's 4.75 so if your initial stop is 1.89 is it
+less than the average daily percentage move for the stock over the last 20 days yes so we're staying in check that is
+good to see so the entry is here the stop is here you're in track you're you're in you're in kind of chat now
+Carla Maggie will actually like to get his initial stop loss either a third or a half the ADR
+percentage or the ATR okay pretty much pretty much the same thing when you actually kind of work it out and think it through okay so ideally you want to
+be a third to half that that there can actually indicate you've got a really good wrist versus all trade on your um on your hand and remember what he said
+earlier it's all about small losses big small losses big one so this is a way that you can see and kind of visually
+gauge are you are you in check you have a nice metric here so let's do another one on the five minute chart so this is
+the same same stock same breakout so here you can see 309 so it's taking out the highs of that kind of trigger bar
+but this is the five minute chart so it's now opening range highs on the five minute okay so we're not on the one
+minute chart we're now on the five minute chart does this look like a good first five minute Candlestick for a breakout yes why that bullish
+synchronicity point you have a widespread candle so you're volume confirming the move okay good you don't necessarily need volume but it's good
+it's preferable to see see the volume there however the five minute Candlestick now closes at 30.87 so
+remember on the last chart the high of the bar or the higher the five minute Candlestick is higher than the high of
+the one minute bar which was 30 56 so on the one minute chart the opening range highs entry point entry point was 30 56
+whereas on the five minute chart it's higher so if it's 30 87 so you can start to see here you're paying
+a little bit more of a premium aren't you maybe you're getting a little bit more kind of confirmation that buyers
+are stepping up and they are really stepping in supporting this stock and it's powering out and it's a good breakout potentially that you are um
+you're catching on to here but you're paying a premium in terms of you're having to pay more for the shares which
+also means if you're going to stop loss lower the day so lower the breakout day Therefore your stop loss is wider so you
+pay a premium for this okay so you have to think about the one minute the five minute maybe using the combination
+um of them maybe you get stopped out on the one minute and you buy it back on the five minute we'll talk about that a little bit later on but here because
+we're buying it at a higher price and our stop loss is going to be at the same level low of the breakout day 29.98
+our stop loss now is not 1.89 it's 2.88 and if we think about
+that relative to the ADR which is 4.79 it's still in check make sense still
+good it's still less than the ADR percentage it's around about half the ADR percentage okay that's good good it is a little bit over half but hopefully
+you understanding the point that let's do another one let's get forward to her now this one here this is using it on the 60 Minute
+chart and the first half an hour oh sorry well it is a half an hour Candlestick but the first
+on when when you're on the 60 Minute chart there are six and a half trading there are there are six and a half hours
+in the session so therefore you have the first one hour Candlestick is actually going to be a 30 minute bar just the way
+that's kind of played out but what you see here is you see a breakout coming through and the high of this bar is 30 to 18. so if you're using the opening
+range highs you're looking for a break through the high of that bar and would you notice there is no break for the
+higher bar so there's no entry make sense and also when you then think about it well 3218 and if our stop loss is
+going loads of the day that means 6.86 percent is this a good risk reward trade look at
+the ADR percentage probably not right interesting we'll do more and more and more hopefully we'll start syncing
+through so now we're going to look at Oracle and I'm going to be quicker on this one so Oracle very so slock we're going to be
+talking about that as well so Oracle see how it Trends up here pulls back down find support on the key moving averages tight tight really tight bar volume
+drives up 52 econ relative strength line while the Stock's still within the base that is a massive massive sign strap so
+now we're going to be looking here and the high of that trigger bar is 95 12. ready so here's the Blue Line 9512 was
+the was the pivot was the entry price Okay one minute chart so Oracle actually takes it out pulls back down closes here
+so then you're looking for the opening Range High so you're looking for the breakout through the higher the first one minute candle set because it is
+triggered through this level there it is there at 95.33 now stop loss low of the day is
+going to be wet it's going to be underneath the low this one minute bar which is 94.83 how much is that in terms
+of percentages it's 0.52 so just over half a percent what's
+the ADR of the stock 1.33 is an extremely slow stock and we're going to be talking about slow stocks later on
+you want be more so focused on the quicker moving stock stocks with adrs of three percent four percent five percent
+six percent and above ideally but this here is it a good resources wall trade yeah it is why because well the initial
+stop is half the ADR percentage and it's very low anyway five minute chart so remember here's the breakout on the
+five minute chart so then you're looking for a break through the high of the first five minute Candlestick which is 95.73 so the entry would actually be
+coming through in here now your stop loss on the lows of the day is going to be wider because price is up so you're
+playing a little bit of a premium hit so 0.94 is going to be your stop loss that is about what's that two-thirds of the
+of the ADR okay still still kind of in check that it's okay let's undo another one so now we're looking at Oracle and
+this is on the 60 Minute chart here's the first 60 Minute Candlestick you can see the tightness of the proverbial
+trigger bar yesterday right the prior day see how tight it is in here there's the breakout volume coming through but
+now you're looking for a break through the high of this bar which is what 96.64 stop loss of those of the day
+94.83 is what in percentages 1.87 what's the ADR of the stock 1.33 so now the
+initial stop is greater than the ADR is that a good reversible trade probably not right interesting so let's
+do a couple of others so we're actually going to do Bitcoin we're going to do Bitcoin and eth for a little bit because it's quite fascinating and you're going
+to see some of the probably best setups you are probably ever going to see actually in terms of in terms of flags
+so this is and these are quite a Maggie's own words okay this is back in 2012. back here it was
+very very illiquid that should say an unknown pretty much no one knew about Bitcoin back here okay so look at these
+setups coming through here this is in 2012 so even when hardly anybody knew about it and it wasn't very liquid it's
+still forming the same setups it is absolutely Timeless and what's interesting is you could go back and
+look at charts of stocks from 100 years ago you will see the exact same chart pattern setting up on the exact same key
+moving averages it's fascinating and this is Bitcoin fascinating absolutely fascinating so
+look at this setup makes a move go sideways find support on the rising 10 and 20 day moving averages get started
+has a breakout does this look slightly similar or very very very similar to some of the stock setups we were looking
+at earlier it does doesn't it look how tight it's getting and then over here look how tight it is then you get another one another stair step look at
+this higher lows go sideways gets Tighter and Tighter surface of 10 day and another breakout so see this black
+line here see how it's surfing it okay you get these little ShakeOut demand tails that means intraday prices going
+below and then pushing up and closing above going below pushing up closing above look how the volume dries up look
+at the high lows it's the same things over and over again here again start surfing the 10 21 and
+50 day in an uptrend gets tight and breakout I'll show you the breakout on the next slide again trying to help you
+train your pattern recognition look at this see how it's just surfing the moving averages you get these ShakeOut
+demand Tails they're good to see why because it's indicating there is absorption of Supply there is accumulation going on prices going down
+bars are stepping up prices going down bars are stepping up good to see see how it just holds the 50 in here and then
+look at that that is again for me I'm very very visual so if the trigger bar concept helps you fantastic if it
+doesn't ignore it but for me trigger bar inside bar sitting there look how the volume dries up it's the proverbial
+final piece of the jigsaw puzzle for me next slide there's the breakout and it goes up sixteen hundred percent we're
+then going to look at this High type flag here so the strongest stocks and all cryptos find support on the 10 day
+the strong ones the 20 day and the slower ones on the 50 day generally same
+principle applied here for Bitcoin how this was basing there's also the law of kind of cause and effects so the bigger
+the cause bigger the base the bigger the bigger the effect to the upside as um as well but there's the breakout and before
+it closes well how'd you have just stayed in this for the 10 day look at this see how you get these undercuts
+here and this is why you'll see there's actually one that there's three significant ones right I call the shake
+out demand Tails why because again very visual they're designed to shake you out shake out demand tail so price goes down
+goes below the 10-day then recovered see here it comes down to the 21 recovers down to 21 recovers down to 21 recovers
+so this is why qualamagi when he talks about the 10 day wait for a close below the 10 day because you'll see this time
+and time again the shake out demands intraday they come down try and shake out weekends and then they reverse hard by by the close don't happen like that
+every time obviously you can get kind of change characters and then they turn around but wait for the close because had you have waited here you'd still be
+in this stock up sixteen hundred percent I'm not selling saying you're gonna top ticket but see how well hell it kept you
+in for the move that's the point stay in for the move then we're going to look at this high tide flag
+this one here so we're now looking at that high type flag in the context of that move and this is a quote about this
+setup this is a very good setup it went sideways for a while it's a high tight flag it being the price surface the 10
+and 20-day moving averages gets really really tight this is a five star setups it's like a perfect one from this setup
+it goes up being priced four five hundred percent in a month to Montel see our price is surfing the
+moving averages and then look tight tight tight tight look out there's no volume remember what does the tightness
+and the low relative volume tell you what's it telling you there's hardly any Supply around that's really good
+that's the minovini vcp point you want the tightness you want the low volume because it tells you very much Supply
+around the stock is getting ready for the next leg higher The Next Step higher okay think about the stairs up sideways
+up sideways up sideways right this one hit Bitcoin March 2013 high tide flag example I'm just gonna whiz through this
+one it's got loads of examples here oh this is one I was just showing you here there's the before there's the after
+absolutely textbook as I punched a mic next one here Bitcoin November 2013 High
+tight flag all you have to think about are the 10 20 and 50 day moving averages again here perfect breakout look at this
+here it bing price serves a 10-day moving average goes sideways boom break
+up look how powerful this is triple good drupals in a few months these setups can be traded on any asset class look how
+perfect this is hopefully you you take print screen to this I'm probably pull in some awkward faces at times of them
+um but look at look at this this is what you want to dial in and train your pattern recognition to ethereum nothing
+different here is a good setup it just keeps surfing the 20 day so see this blue line here and it's 21 EML my job
+pretty much every much just check out demand out check out the manto check out the manto check out The Monto and then see how you get this kind of
+quote-unquote trigger bar look at the volume Drive look how it's just sitting there that's your breakout coming through here this is a five star setup
+now let's go into a little bit of a quiz so ethereum let's see if you are learning
+something in this video I hope you are as it took a lot of time to put this together so if you are enjoying it please do subscribe to channel if you're
+new please do press the like button for me it really helps me grow the channel so can you identify the three high
+quality setups can you see them they're all five star I'll give you three seconds three two
+one there they are your job is to identify these these setups have been appearing
+for the past couple hundred years and they're probably gonna appear for the next couple hundred years this is how
+stocks and cryptos move they move in stairs you can clearly see one step another step so you see here how it's
+just going one step and then it goes sideways another step sideways another step sideways that's how they move your
+job is to identify the next step when it's about to break out okay what does it tend to do we've been talking about
+it before it breaks out tightness in price tightness in price tightness in price where is the share price where is
+the Candlestick in relation to the key moving averages before it do before it does it what are you seeing time and
+time and time again there's a very repeatable kind of nature to it so hopefully you're stunning it hopefully you're getting
+you're not going to have 100 win rate you're going to be wrong most of the time but once you catch a move like this
+you're going to make 50 losers in one straight and that's how you make money so quality monkey really focuses on
+keeping losses really really small relative to where he is targeting and achieving his average gain he's trying
+to get these home run trades these huge trades imagine buying youth here it goes from what's that 40 48 something like
+that 40 46 47 in here and then look it goes all the way up to 320-ish 310
+before it starts closing below it's 21 EMA so I actually like the Tanny men 21 you may even hear from this breakout so
+it goes all the way up here before it closes below the tender so the Stockland goes or The Ether goes well even from
+here it goes from that all the way up there to over 300 from four from forty
+fifty dollars foreclosed blood test that's the point get the big ones right so that was continuation type pattern
+breakouts okay that is your vcp's your flags your Penance your cabin handles your Darvis boxes so and so forth so
+forth we're now going to go into EPS what on Earth is an EP an episodic pivot
+which I also I didn't really understand the name I don't to me the dictionary definition of episodic does not really
+Define this uh nor do I really think about it as a pivot so if you don't like the name like I don't know the name I
+think of it as a gap up bass breakout invariably it happens on earnings as well so EP Gap up base Breakout playing
+kind of things right whatever works for you to describe it do that pretty much so what are you looking for in essence
+you are looking for a stock that is building a base and then it breaks out of the base and invariably it's going to be on earnings clearing all the key
+moving averages and preferably all the overhead resistance okay as we do more examples it's going to be a little bit
+more clear I've got some examples as well so EPS are not always but many times I'll wear a new trend starts good
+earnings big beat and big volume that's the secret source so if you re-watch this video later on
+and then remember at the start of the video I was showing you the before and after of those stocks note how many of
+them the beginning of the uptrend pre-bass was on earnings interesting so they're basically then
+post earnings bases for them the continuations so what you could have here is a breakout and then a high type flag form over the next couple of months
+or so something like that a couple of weeks who knows so sometimes if you have a good looking setup and it gaps on the earnings or
+news even if it gaps 5 10 15 it could work out really nicely so let's go through some examples so EP guidelines
+you want a gap up of greater than 10 you want big volume near the open best
+and the best of the best often trade their average volume in the first 15 to 30 minutes so that average daily volume
+you'll actually see that level of volume come in in the first 15 30 minutes you can use like I use I use tc2000 as well
+they have a volt buzz on there so you can kind of see how much volume is is coming in you can just kind of eyeball it use a little bit of maps if you want
+if earnings Gap preferably High double digit and or triple digit earnings Revenue figures plus significant beat of
+expectations best of the stock is coming out of a base and not overextended so I the Stock's not been rallying for two
+three four months and it's kind of at the top of a rally rather it's actually built in this instance here a big cup
+and handle type base and then it's gapping out and the size of this base could be a couple of months could be a year something like that and then
+suddenly it's coming out and it's beating the uh the analyst expectations maybe they were expecting kind of a dollar to
+come in in terms of the EPS but actually the company reports two dollars or three dollars or four dollars that's a huge
+surprise um oftentimes you could get it as well if a company comes out in the earnings and there's uh there's a material change
+of some form in terms of the news are you they announce we have just signed a 10-year a tenure agreement with the
+government for our products and services and it's going to be worth X to us and X could be a significant increase on what
+the analysts were expecting so there can oftentimes be on these kind of eps a material change in kind of news and
+outlook for the company but potentially the earning side as well a big a big beat coming in basically on the earnings and the revenue side of things
+so these are the type of eps you're looking for many times the stocks that are already in existing uptrends over the past six months
+a year or two years preferably they have been building high lows for many months and then they break out of a big trading
+range so you'd like to see the stock in a longer term uptrend so here above say the 200 above the 100 but then it's
+building this big size base and it breaks out of the base takes out the overhead resistance and is above all the
+key moving averages next slide so how do you trade an EP identify the
+setup before the Market opens enter opening range highs so orh for the first one five or Sixty Minute Candlestick
+with a stop load of the day so remember like we were doing the opening range highs looking at the one minute the five minute and the 60 minute we're going to
+do that again with EPS Trail your stop with the 10 or 20 day once they surpass the initial stop usually you want to get
+in as early as possible when you have a five-star setup so like this EP hit you want EPS to Gap a gap above the moving
+averages a strong EP should Gap above resistance levels so thinking about that from a structural tech technical
+perspective so are you resistance levels of a base and then also thinking above the key moving average is I you don't
+want to see an EP that's gapping up into the 200 SMA which is then sloping down like this you don't see that always
+gapping up into the 50 SMA and the 200 SMA volume was on the table before the opening range height so as I said on the
+previous slide okay oftentimes in the first 15 30 minutes an EP can actually be trading
+its daily average volume so I if a stock trades a couple million shares a day it can be trading those couple million shares within the first 15 minutes half
+an hour so let's go through some examples probably the best way that you're going to learn this so here we have mphase NG we have two EPS on the
+chart we have one here we have one here which is the better one which one do you think is the better one
+given everything that I was just teaching you well the first one here what does it do the Stock's building a decent sized base starts building higher
+lows in the base albeit a bit choppy does start to tighten up here the relative strength is good and then it
+eps on good volume 52-week eyes coming through clears the base highs so that's
+the overhead resistance and it's above all the key moving averages interesting that's a very good EP then over here
+qualamagi actually bought this EP and he bought the CP as well this one here why is this one not as good as this one
+because it's not clearing all the overhead resistance think about all the Trap bars up here okay think about all
+the Trap visors decent volume there as well there's a lot of trap bars here so again imagine the psychology point a lot
+of trading is you want to have awareness of both you and your own actions but also other Market participants so if
+you're thinking about this here there could be a lot of people that are trapped up here and they've ridden this stock down this decline was about
+25 30 something something like that so they've ridden this stock down here and they have a loss in their portfolio of
+20 25 say then the stock gaps on earnings and suddenly their loss of 20
+25 suddenly they're now break even and what do they do I'm gonna sell why because they want to remove the pain
+that they are currently experiencing of having the loss so they now have an opportunity to remove the paint so they do so a lot of Supply then comes in here
+so then that kind of makes sense that Stockland has to kind of back and fill back and feel back and feel like this and then there's a breakout attempt here
+and then kind of rolls over a pretty darn sharply but if you think here okay there's going to be some trap people within the base here but suddenly the
+stock gaps on EP now they're going from Fear to greed because now they go well
+hang on a minute I had a loss in my portfolio I was down 10 on this stock I was down 15 on this stock but now it's
+just gapped on earnings I'm at five percent ten percent well I'm holding on to this one interesting right very different in terms of the psychology so
+the best DPS you'll often find will Gap above the base highs that they've been building and above all key moving
+averages they won't Gap in gap up into declining moving averages and or a lot of overhead resistance a lot of trap
+bars hopefully that makes sense we'll do some examples it'll make sense so sometimes stocks Gap up over the
+entry point but you can still have a tight stop on it if you do opening range highs when you have a powerful chart
+so look at this setup here is it oh I don't flag it's not far off a high type flag see this really nice tight trigger
+bar coming through in there that was a really good setup by the way when you have a powerful chart a gap up is okay this was a pretty decent setup he's
+talking about plug here so this is your episodic pivot your EP Gap up base breaker but see how it is basically
+gapping above all the highs of the base and it's above all the key moving averages so don't worry we'll go into
+opening range highs for how to trade these EPS a little bit later on melee this one here so do you see how
+it's gapping up it's above all the key moving averages stocks building a decent base pretty much gaps up to the highs of
+the base here so it then kind of makes sense because there are going to be trap bars up here it's at the top of the base you'd expect there to be kind of
+resistance there from actual trap bars a bit of psychology as well it's bass highest resistance things like that it takes a couple of days but didn't take
+out the lows and then goes on a really nice Trend and that's the first close up here below the um
+Kuala manga actually use a 20-day melee I bought on earnings here then I use the 20 days my trailing stop it reported
+great earnings I mean just incredible earnings and I'm filming this currently in May of 2023 go and take a look at
+melee ridiculous earnings are still coming through on this uh on this stock and estimates as well crazy
+uh Shopify so now we're actually going going to go into these are pretty recent you can see this is actually um May
+which as I said I'm currently filming this in May 2012. so Shopify we're going to look at
+this stock here and we're going to look at it on the one minute chart the five minute chart and the 60 Minute chart for opening range highs on the EPS but here
+you can just see visually on the daily chart what do you see is a stock that's building a big range it's eping above all the key moving averages to pretty
+much the highs of the base trying to EP over the highs of the base that day is a better setup remember here mphase engine
+gapping above pretty much the highs of the base above all key moving averages it's not really gapping into a lot of
+overhead overhead resistance so Shopify let's now start looking at this and be cognizant of the ADR percentage of 4.29
+here we go so gaps up as you'd expect right it's an EP on the earnings so here is the first
+one minute Candlestick okay candle set good volume coming through really good volume coming through check out The
+Mantel decent close and then it goes tight tight tight and then here it takes out the opening range highs of the first
+one minute bar which is 55.94 so your stop is then lows of the day which is here underneath this bar
+which is 53.88 now what percentage risk is that that is 3.68 what is the ADR
+percentage of the stock 4.29 is that acceptable wrist versus wood it's pretty darn good isn't it it's round two thirds
+or so the ADR which is kind of acceptable and look at the volume coming for it it's pretty darn good it's pretty good candle six volume price action
+going on next one five minute chart so this is still Shopify but now we're looking at opening range highs on the five minute chart so here's the first
+five minute bar decent first five minute but the higher that bar is 56 so as it takes out that high that's where you're
+looking to get in initial stops underneath the lower the bar 5. 53.88 so that is going to be 3.5
+3.79 which is pretty just under around about it's just over two thirds isn't it
+versus the ADR percentage of the stock okay it's still kind of acceptable acceptable risk now the next one here
+this is the 60 Minute chart but remember this first bar here is actually a 30 minute candle so so really good first 60
+Minute bar coming through why gaps up opens near the low little shake out demand tail pushes a really good volume
+coming through so the higher that bar is 59.31 stop low of the day 53.88 would be
+9.16 now is that a good resources will trade look at the ADR probably not why because
+it's about two times the ADR which you could think about that is ATR if you want to use average 2 range instead
+again the wrist reverse reward is now out of whack so on this one here the one minute chart it's in check five minute
+chart it's in check one hour chart and a check make sense let's do a few more
+examples this is another relatively recent one this is smci the ADR of this
+stock was 5.77 so here's the Gap through the base highs see how it's eping
+basically to the base hours and trying to take out the base eyes and above all the key moving averages 119 27 was the
+highest of the base so one minute chart so we're gonna do one minute five minute Sixty Minute bar so here's the EP now on
+the first one minute chart it doesn't actually take out the highs of the base so I actually think on this one what you
+could use the highs of the first one minute bar or you could wait for the highs of the base around 1 19 24. that's
+my subjective viewpoint but let's just go opening range highs for the one minute Candlestick to not add too much
+confusion to this right so decent volume coming through very good volume coming through on a relative basis for the
+first one man in Kansas City good strong close check out to Martel the higher that one minute Candlestick is 118 22 so
+opening Range High breakout through the higher the first one minute candle say that's where you get filled stop loads of the day 114 32 what is that
+percentage risk 3.3 let's take a look at the a Dr percentage 5.77 is it in check
+it's in check five minute chart first five minute Candlestick coming through so K it's a doji there's good
+volume coming through higher that bar is 118.76 so stop loads of the day 114 32
+percentage risk 3.74 is that in check with the ADR yes it is check next one
+here now we're on to the 60 Minute time frame okay first one hour Candlestick is a good
+Candlestick yes it is why gapa powerful Candlestick look at the volume coming through highs of that bar is 128.90 lows
+of the day 114 32 so the stop loss to go lows of the day would be 11.31 is that
+good wrist versus wood look at the ADR percentage no it's about double it's out of whack again so one minute Chart good
+we're in check five minute Chart good we're in check 16 minute chart again at a whack so again this is going to be
+feeding into your strategy for thinking about these things let's do another one here Uber wraps and sets reps and sets
+as Arnold said that's the best way to teach it so if you look at Uber here okay it's not great in terms of the
+stock is potentially building a base but it's kind of been a downtrend isn't it lower lows lower highs lower lows low
+highs it's not great but something that happens here here's the Gap up ADR is 3.6 let's go take a look at it and it's
+basically e-pinging into the highs of the best I think the other two were better than this one because if you just look at the straps kind of EP trying to
+EP above the highs of the base and look at Shopify as well it's going to EP above the highs of the base so I'd say Uber just on the face of it at the
+minute on that kind of Gap up is not as strong as some of these other ones okay so we're looking at this bar here okay so
+there's no kind of I'm really putting a high because would you use this eye this eye this eye is not very clear and obvious so just the highs of this bar
+let's take a look so one minute chart what happened well it actually gaps up
+the open is up here and then it sells off here so this is not as good a one
+minute Candlestick as we saw on the other two examples being Shopify and smcr okay gaps up the highs here sells
+down here then you get the checkout to Montel but the higher this bar is 3510 shake out demando so the lower the lower
+the day is going to be 34.23 so when it takes out the high your entry is there and then your initial
+stop is here lows of the day that is a 2.46 stop which is about two-thirds of
+the ADR which is 3.6 is it acceptable I'd say it is acceptable next slide five
+minute chart so it's um overall it's a bearish Candlestick but it's not quite doji and
+there's a supply there's a demand tail but either way this is the higher the bar it's on the five minute chart 35 24 and then loads of the days 34 20 23. so
+you've got around about a dollar dollar stop so again if you know you've got about a dollar stop you can then look at the ATR and go well the ATR is one and a
+half dollars or two dollars or whatever you could do it that way as I said I prefer percentages my brain just works
+better with percentages so stop slows a day would be 2.86 which again is about
+two-thirds or so versus the ADR okay still in check isn't it next one for Uber
+well now we have one where first one hour Candlestick is more of a hammer type doji bar highs of the bar is
+3524 loads a day 34 22 so therefore the initial stop if we went through the high
+of the first first 60 Minute Candlestick here and then stop loads of the day would be 2.86 is this good resources
+what well this time actually is on the one hour chart isn't it because it's about two-thirds versus the ADR percentage okay that's looking a little
+bit better let's now do some EPS so Roku has three
+EPS it actually has four on this chart let's see if let's see if you can get them can you rank them as well so
+there's three EPS I really want really want you to focus on there's four which is like a dud I won't even consider it
+an EP ready three two one there we go did you get them did you rank them as well so what I would
+actually say let's just start with the duck this one here is a no-go right why well it's gapping up there's going to be
+overhead resistance because the Stock's in the downtrend it's gapping up into the 50 the 200s there the gray line is
+the 100 it's bubble no no no no no okay this one here now number three the
+reason I put it is number three well the Stock's not really basing here it's actually already in an uptrend so that
+is just not as good for me so yeah it's kind of it's already been trending up for some months it roundabout and was
+that nearly eight weeks or so it's kind of been trending up but number two which I rank second is is building a
+constructive base here and then it EPS it EPS above all the key moving averages there is some overhead resistance there's quite a big kind of what I call
+a resistance cluster where price has been trading in this range for some time in here it's okay there's going to be trap buys but why I think number one why
+I rank this number one is well look at where the stock is finding supportive action prior to this earnings see it's
+in a much more established uptrend and it holds here around the 50 SMA here it holds around the 50 SMA here it's kind
+of languishing actually goes below it reclaims kind of kind of a bit sluggish around here but here it just looks like
+a much stronger base to me and then the EP is actually taking out all overhead resistances eping above the overhead
+resistance and above the key moving averages for me that there is the best one that there is the best one next one
+so Mellie there are two setups on this chart two setups one's an EP one's a
+continuation type pattern breakout can you find them three two one
+here we go so here's the EP see how the stock is in an uptrend here I don't know why there's this red line
+here that was probably from the last one forgot to say that but here you go it's in an uptrend fine support on the 10 then on the 21 in here tight tight and
+then it goes takes out this range above all the key moving averages good EP good candle set now it does then pull back
+down it does find support of action around the 10 which is really good right so the stock is now staying above it's 21. in here pulls down Fine support of
+action around the 10 and then what do you notice tight tight tight tight call a magazine word this is a good setup
+right here it's a really good setup next one so now we're going into a little bit
+more of the specifics actually so quote from Crackle malings on some stocks you don't get good setups
+they're just choppy and go higher anyway so what is a choppy stock so if you think about what have we been looking
+for we've been looking for stocks that are in solid uptrend and have made a smooth move above the key moving
+averages okay so remember that Trend which can oftentimes start post earnings so I.E something material happens and
+then the trend happens then it goes and Trends along the 10 and the 20 day maybe the 50 day as well right but it stays
+above it and it holds it finds supportive action well what quality Maggie is referring to here is a choppy
+stock is it doesn't respect it doesn't hold the key moving averages it just chops around now this is very important
+if you've read her livermore's work if you've read the um darvis's work as well stocks exhibit
+personality behaviors and you may not like what do you want about that no they do
+stocks just move different stocks move in different ways don't ask me why I couldn't explain it they just have
+personalities like I have a personality which you may like or not like like you have a personality which people may like
+or not like but you will have those Behavior traits which means in certain situations you will react probably how
+you did in Prior situations now that's important to think about when you're looking at a stock why because how has a
+stock move previously is to my mind the best indication how is it going to act in the future this is the personality
+point if you know someone's personality and you know their behavior you know how they act in a certain situation therefore you can try and take advantage
+of that thinking about that as stocks and how they how do they move how do they act so if you take a look at hubs here
+this was one of the can the canceling winners of 2020 and 2021 but see how
+choppy it is so remember you're looking for clean moves along the key moving averages whereas here well just kind of
+choppy choppy choppy choppy choppy choppy choppy you getting the idea even up here it's just choppy even to the
+downside it's pretty choppy see it's just it's chopping all around all over the place so if your trade management is
+going to be well I'm gonna buy a tight a a nice tight breakout from a flag or something like that and then I'm going
+to ride it along say the 10 or the 20. well if the stock has a history of just being able to whip back and forth
+through the 1020 you're gonna get stopped out really quickly and probably be very frustrated that's why you want to look back at the previous behavior of
+the stock how is it acted how is it trended it's a subtle point but a really really important point I think so this
+one here this is now talking about sector momentum so when you have sector momentum if it's a leading sector and or
+hot theme the setup doesn't have to be really really good it's okay if it's three and a half star
+or four star setup it still counts like a five-star setup because if everything is running in the sector there's
+increased probability of success now this then links back to a couple of questions how do you identify sector
+momentum well in essence you identify multiple stocks within a specific sector and or theme that are making big moves
+they are showing momentum they are building Flags they're building cup and handles they're building vcps whatever
+they're trending higher they're riding their key moving averages so what I've got here and these are lined up you've
+got right and you've got more of them both of which are North American crypto miners so this is what Bitcoin was really running in the
+market kind of went a little bit crazy but in the back end of 2020 and then into into 2021 which is when the growth
+bear Market really started this was kind of the blow-off top for growth stocks and then it's been a bear market for around about two years or so um just
+over certainly for Grove stocks and more kind of canceling grocery type names but this it they may not have been
+the best setups I wouldn't really say for Riot or Marathon either one was
+really a five-star kind of setup um but they were pulling into the 10 and 21 EMA they were doing it in here as
+well you can see it with um with Marathon 1021 EMA in here you can see it in here see how it goes up pulls back
+down find support on the 21 tightens up a bit in there you can sit in here as well they weren't I wouldn't say any of
+these are really five star some of them are it's quite Maggie saying they're in the correct three and a half four star tops but there was so much momentum
+there for crypto and crypto stocks think about what Bitcoin was doing during this time I think cavi wood was being interviewed
+um every day about Bitcoin and price targets and stuff like that like there was a lot of momentum in crypto stocks
+um that so on the next slide we're going to be going into a relative strength okay the importance of relative strength
+and I'm using monster beverage which built arguably the best kind of volatility contraction pattern you will ever see on the monthly jar especially
+given the fundamentals of this stock where it did it in the con in the context of a bear Market as well on the relative strength that it exhibited and
+then the move thereafter as well so let me take off a couple of points here the best setups the best ones the best
+setups are those that show relative strength if you've read the likes of O'Neill's book you'll know about relative shrimp that can't go lower even
+if the overall if even if the market overall or the indexes are showing weakness and going
+lower these things being the stocks can't go lower maybe even building high lows you may have heard the adage of the
+basketball being held underneath water so the stock is the basketball being held underneath water and the water
+being the market so the market pressure is pushing the stock down but every time that pressure is eased a little bit the
+stock pops out boats are high low as the pressure comes back on that's the proverbial basketball underneath water
+if you're not paying attention to relative strength well I guess you don't know what you are doing so see monster
+beverage here see how it builds this huge base think about the cause and effect relationship as well now this is the monthly chart and because this is
+then um just the strength of stock exhibited you can't really see the power of this relative strength line here but believe
+me it was an uptrend as you can see with the 52 cars coming through and then you see the tightness so remember the
+concepts that we were talking about and primarily we focus on the daily chart okay start getting tight around key
+moving averages it happens on all time frames you can find these setups on the monthly chart the weekly chart the daily
+chart the one hour chart the five minute chart the minute chart whatever chart it is just supply and demand it's all it is
+it's absolutely Timeless so see the tightness that comes through and hit now what I do just want to add in here quickly is the power of earnings growth
+sales growth and margins and breathing as well okay really really important so sales growth margins growth
+and also the earnings growth coming in really really important so if you can line up and we'll look at it a little
+bit later on of course if you can line up the technicals with the stock that's showing fantastic relative strength and
+the fundamentals and potentially the story behind it you can have a very powerful situation so relative strap
+this is a stock that Conor manga was in here this was one of the stocks with the best relative strength in the June July
+pullback in the market it being the stock barely pulled back it was back at all-time highs in no time okay it's up
+900 from the load when you have a stock that's up 900 in a few months and the
+market weakness can't bring it down the stock is trying to tell you something it's yelling at you it's literally
+yelling hey I want to go high if the market weakness stops I'm going to go higher so again this free tool search my
+name on the trading view you'll find it 52-week car is coming through here 52-week cars 52e cars here's the stock
+setting up here and if you get 52-week highs while the stock is still basing that is the basketball being held
+underneath water it is such a good sign of strand if the stock hits 52 cars whilst it is still basic so what are the
+type of stocks that quality is looking for I'm going to show you some of the market Smith charts to illustrate the point if you're interested in discount
+trial there's a link in the comment section below so I like to trade the stocks with the biggest earnings they
+tend to make the biggest moves but the only thing you really need to focus on is momentum because all of the big
+earnings winners are going to have momentum you're gonna catch them if you just focus on momentum you've got to be
+in the momentum leader so remember we were actually looking at um a little bit a little bit earlier on I
+think we were looking at Owen a little bit a little bit earlier on it's a very strong talk in the Market at the minute certainly got my my attention at the
+time of filming this look at the earnings coming through four quarters of triple digit earnings look at the sales coming for as well and the sales you
+have sequential growth one on earth is that that's a big word so you basically have growth on a year-over-year basis
+but also a quarter over quarter basis as well that's a really good sign to see especially for the sales even better if
+you can get it for the earnings as well then we take a look over here at the estimates well 2023 the estimates for this year 55 and this little green
+marker means that the guidance is up chat good next year 2024 41 with the
+guidance app good really good so the company has gone from earning three cents a share to losing money five cents
+air to earning two cents a share to suddenly 30 cents 47 cents 66 cents a
+share with the estimates coming in that it's huge share a couple more this one here is Shockwave now quality Maggie is
+quite here was he was talking about La Bongo those of you who are trading through um covid and we're focused on counselor names you'll be really feeling
+really familiar with lavongo it no longer trades I think it was actually brought out by teledoc um I think so I've used chalk Wave Medical which is
+kind of another medical related Healthcare stock um to kind of illustrate the point that he's making it these are the kind of stocks you want to
+be long the ones that have triple digit earnings and revenue growth look down here triple digit earnings doesn't have
+triple digit Revenue growth in the most recently reported callers but did have a string of those and still 71 72 is very
+high this is the reason lavongo went from like 20 bucks to 150 bucks in four or five months it then got bought out as
+well this is fuel this is called fuel rocket fuel is another word for it most stocks I trade are very liquid ba
+Peloton Tesla so looking for the liquid leaders so you take a look here at Short web medical we said about the earnings being high triple digits the sales being
+high and then the estimates as well next year especially plus 29 with the guidance up as well and what chart
+pattern do you see here oh cup handle on the weekly chart look at the RS line stock has a history of being able to run
+interesting got one more for you so this is Shopify and we're going to be looking at in this period in here this
+one he was talking about look at shop 2020. look at the numbers look at the revenue growth look at the earnings per
+share growth if you're gonna get big moves in a stock there needs to be a reason for it to go up every stock can
+go up a short every stock can go up a short amount of time on some random stuff but there needs to be something
+usually earnings or unexpected earnings is the Big Driver for long-term moves so if you take a look at Shopify here
+that's quite interesting if you've seen some of the other um recent videos I think it may have been the mini beanie video where I talk about kind of
+fundamentals and oftentimes with these growth stocks that when the earnings top out the stock tops out the stock actually tops ahead of the earnings
+topping out it's quite it's quite interesting to see and especially when you kind of think about it from a price cycle perspective so you've got like
+your phase one phase one based down here so phase one base phase two uptrend phase three top phase four decline into
+a phase one base and Shopify you see this bar here if you remember a couple slides ago and we were looking at EPS on
+the Gap up see this weekly bar here that's actually one of the Gap ups that you saw on the earnings even though the earnings were down minus 50 interesting
+right who knows but looking at this it so we get the relative shrimp line turning up and then take a look at the
+earnings coming through so these are the earnings coming through here 33 100 999
+467 300 900 109 huge earnings are coming from on the
+stock then if we take a look here so from 2016 to 2021 this is the point that
+I want to make it and then look where the stock starts topping out so the company goes from earning or losing
+Ascent to making two cents four cents three cents to suddenly 2020 40 cents
+again it was a little bit of kind of not necessary you wouldn't think of it as kind of classic stay at home like you
+would think of like a zoom and a Peloton and DocuSign because one of the beneficiaries of kind of the the coronal
+crisis I would say but you can see here huge change in the earnings three cents to 40 cents to 64 cents then here is the
+peak and then what happened in 2022 four cents now it obviously didn't help that
+there was a bear Market in kind of growth stocks as well but you see the point here that when the earnings stop the stock actually topped so again the
+kind of the the revenue the earnings they are fuel they are Rocket Fuel to use while Maggie's quote from from a
+couple of slides ago so it's just interesting to pay attention to the earnings but sometimes you go look at the zooms the pelotons the a PBS's of
+the world the docusigns of the world the stock can actually top out when the earnings are at their Peak which can confuse most people which the market is
+designed to do so let's do a little slide on screening so I recommend you do three scans he's
+quite a mangy's word a one month Gainer scan a three month Gainer scan and a six month Gainer scan you don't need any
+others on scanning criteria for the one three and six month I use dollar volume ADR percentage so that's how how um the
+percentage move the stock has had on a on an average daily range over the last 20 days so I'll talk about that in a
+couple of minutes time rather than confusing yeah and price growth over a period it needs to be in the top seven
+percent of performers or higher if too many results TC 2000 to do this and you
+can basically set parameters that you can search for the stock that has made the biggest move over the last three
+months and then you can set you can set the ranking so you could look at stock server and subject to the meeting the other criteria but you could be looking
+for the stock that's made in the top seven percent of movers and it meets the other criteria so the dollar volume and
+the ADR percentage okay so how what is the um what is the average percentage move the stock has had over the last 20
+days say and you also want it to be a top performer why because he's trying to find the strongest momentum stocks in the market if you're using the light to
+Market Smith then you could be looking you could use a three month relative strength rating as well maybe above 90
+or something like that so you're trying to trying to get them um you could be looking for stocks so basically you're basically without
+trying to confuse you too much you're basically looking for stocks that are liquid that move a lot and have made the
+biggest moves over the last one month three months and six months period a symbol you don't need to confuse it any more than that you want the
+strongest stocks on any given time frame you don't need any intraday scans all you need to use is the one three and six
+month momentum scan find the setups by running them after the close then put good setups and watch this then just
+watch that watch list that's all you need to do to make millions it's never normally a good thing when you only have
+one sector that looks good for long setup so are you when you're doing your scans you would actually like
+to see stocks from lots and lots of different sectors and groups setting up those patterns those cup and handles
+those flags those vcps those diverse boxes because that's a better indication that there's a lot of shrimp in the market there's a lot of breadth in the
+market if you only see a cricket there's only one or two sectors that look good here it's probably indicating the market
+is a little bit weak underneath the hood especially if it's kind of in an uptrend or potentially very long in in an
+uptrend I follow price action you you can have opinions but they need to be loosely held if price is disproving your
+opinion you need you follow price not your opinion that's the key problem is most people do it the other way around
+that's not a recipe for success for a Trader our job is not to predict our job is to
+listen if you want the ADR formula by the way I've got it down here and that's the 20-day um Eddie EDR formula if you want to copy
+that into tc3000 if you want if it's a slow ADR stock then it's you
+shouldn't be trading it low ADR stock is equal to high ADR stock is equal to Gold
+so now we are going into the controlling so that there was the identify section you'll be happy to hear that the control
+and the mitigate and the optimize section is not as long as the identification section that was the
+longest by far and I've also I've already covered parts of the um certainly the controlling in the
+optimizing profits thinking about trailing along along key along key moving averages the optimize will get into it so control
+these are some quotes I'm going to get as we did with the identifying section I'm going to give you some quotes to kind of kind of outline things and then
+we'll start going to start going into it so the stop is always lows of the entry day remember with the opening opening
+Range High breakouts the stop shouldn't be higher than the average true range so the Ada TR it's easier to look at the
+ATR versus the average daily range for when you're doing your stocks the ATR is the intraday range it doesn't account
+for gaps as I explained earlier I prefer using the ADR percentage my mind just
+works better with percentages instead of fixed kind of numbers I know they're both numbers for me I prefer the ADR
+percentage if you want to experiment with the ATR percentage ADR instead of the ADR use that whatever works best for
+you in essence don't over complicate it I usually don't buy the stock if there's up more on the day than it's ATR
+preferably you want to get in when the stock is only up a third a half or two-thirds it's ATR remember we were
+looking at that with the opening range highs and saying is this a good reversible trade my stop
+are usually around half the ADR ATR they are rarely full ATR I always feel as
+though I'm chasing when the stock is near full eightier responding to what chords blowing up the account four times
+early in his trading career lack of strategy lack of setups basically lack of risk control didn't know what the
+hell is doing get used to losing get used to being stopped out the best Traders are the ones that can take the
+best losses I've got one more slider quote and then we'll get into some examples if you catch big moves that are
+multiples of your risk you're going to make a lot of money risking very little it's all about having tight stops and
+big Winners and obviously a lot of small losses it's all about risk reward trading is about getting big multiples
+on your initial risk hopefully these kind of quotes on controlling risk it could be a real insight into how qualimagi thinks about trading a new
+strategy I've had tradeth where I've made 50 times my initial risk and more on parts of my shares that's what it's
+all about my win rate last year 2019 was like 25 and yeah I was wildly profitable
+even this year 2020 which is my best year by far my win rate is well below 35 so this is one of the best Traders ever
+whose win rate is 25 and 35 percent less is what like coming in average like
+high 20 tops isn't that really interesting that's probably just kind of change your mindset around thinking that
+you don't need to have 50 women 60 women 70 80 women the whole point is not to
+try and be right all the time the whole point is to take very small losses in relative proportion to where
+you're targeting and achieving your average gain small losses big Winners that's what you're shooting for so
+we've got a couple of examples I've got one which is stop under the pivot which is a little bit more conventional
+um to just kind of illustrate the point to you and then I've got two which are opening range highs so we'll talk about this one what chart
+patterns you see but the vcp isn't it one contraction two contraction three contraction this on the one hour chart as well I can take these small losses
+all week long that's my trading I had a 25 win rate last year 2019 and yet I made like over 100 it's all about small
+losses big wins small losses big wins don't get into the cult we're thinking you have to be profitable every day no
+you don't what you need to do is have some really big home run trades and keep the losses small in the meanwhile that's
+my philosophy so see here one contraction two contraction three contractions see how it holds the key
+moving averages look at the tightness look how the volume dries out so this one here let's just imagine that the ATR
+of this stock so this will be the one where I show you ATR okay then I'm going to go back to ADR I just already got so
+80 up let's imagine that the ATR of this stock is a dollar so your initial stop loss is going to be 50 cents okay so
+imagine that you are buying it around 20 okay let's just imagine I know it's not quite but imagine your entry is at
+twenty dollars and then your stop is going to be at 19.50 now this is more of the kind of conventional O'Neill
+minivini way of being underneath underneath the pivot so I want to show you this example that you're probably more familiar with and then I'll show
+you the opening Range High examples on the next two slides so imagine it our stop loss could then go underneath
+the low of this final contraction which ties in with being underneath two of the key moving averages and let's say our
+stop is 50 Cents so we're buying it at twenty dollars which I know it's not quite twenty dollars and our initial stop is going to be 19.50 I know it's
+not quite 19.50 but let's imagine that's 50 Cent and let's say the ATR and the stock over the last 20 days or 20 bars
+is a dollar so we are half the ATR for our initial stop is half the ATR is that
+a good risk versus Ward kind of checks and balances yes it is and then here imagine if you held for the first close
+below the ten this is the 10 email on the one hour chart so imagine that you got stopped here at around about twenty
+four dollars 50 and imagine you did it on your whole position that would be about nine times your initial risk you would have sold
+part of your position on the first couple of bars so three to five bars we'll talk about that so let me give you some examples you remember this o-n-o-n
+so on and I've got one on the one minute chart and then one on the five minute chart as um as well so looking at this one here
+do you now start to see how you are thinking about the the risk that you are taking thinking it thinking about it in
+terms and this is what I kind of did earlier but I've now shaded it red to think about how large is your stock
+relative to either the ADR percentage in this instant series 4.75 for the um for the Candlestick on the day and it would
+be 1.89 initial stock because you're buying it through the highs of the first one minute Candlestick stop loads of the
+day 1.89 relative to 4.75 that's a nice metric there to be to be thinking about
+okay so tight stops and then you're looking for the big one it's tight stops relative to how the stock is trading because 1.89 on say like we looked at
+Oracle which had an ADR of 1.33 then that written word it would be and a
+whack it wouldn't be kind of checks and balances coming through if we do another one so you see this gray shaded area the
+sound we're kind of then thinking about the controlling race I did kind of cover this off earlier on in the video as well but see here the initial stop well
+through the high opening range highs 3087 stops lows of the day 29.98 that would be 2.88 so 2 88 relative to the
+ADR is that good resources wood yes it's looking pretty pretty constructive let
+me do another one here for you so remember that quote by Livermore men traders who can both be right and sit
+tight are uncommon Livermore was all about playing for the Home Run certainly later on in his career when he was
+making oodles and oodles of money it was about sitting tight it was about getting the big money sitting in the Home Run
+trade so here you go this cabba this is from late 2022 into 2023 so the stock
+moves up here look at the volume coming through pulls back down where does it find sport on that black line the 10-day and then pulls back down Fine support
+where on the black line 10 day and then you get that trigger bar coming through and then from here imagine if you went stop low at the trigger bar day instead
+of opening range highs then from here your risk would be around about 14 cents and the return was 8.88 before it closed
+below the 21 EMA the first close below the 10 day was up here the 10 EMA being this bar here which still would have
+been pretty darn good but before it closed below the 21 and I'm going to show you some stats a little bit later why I personally use the 21 uh EMA and
+why you continue to sit on the charts six through three times the initial risk they are the kind of ones you are looking thick is about 423 I think so
+with swing trading you're looking to get 5 10 20 30 times your initial risk the best trades you'll make 20 30 50 times
+your initial risk you can make a lot of money even if you have a 20 30 win rate my win rate last year 2019 was 22 25
+something like that this year 2020 is maybe a bit better maybe closer to 30 you can have a win rate well below 15 is
+50 and make up a ton of money if you need a 70 80 90 win rate to make money
+I'm sorry but your setups suck your methods suck you have very little Edge if you need that higher win rate to wait
+to make money next slide so now we're going into control but thinking about position
+sizing you shouldn't put more than 25 of your account in any given stock ever there's no point you get the best
+breakouts in Bull markets and in a bull market you get hundreds of stocks that make big moves you can very easily make
+a lot of money risking just point five percent of total account Equity per trade I rarely risk more than 0.5 on any
+trade and I'm not like 120 on the year being March 2021. nowadays I rarely risk
+more than point five percent of my account on any trade but when I add a smaller account I consistently risk like one two percent
+one percent of total account Equity is a lot of risk so hopefully you're getting a good kind of feel for how much quality
+money is risking per trade I'm risking 0.3 to 0.5 percent of my total account
+per trade I'm taking smaller risk than I used to but I'm going for big multiples of risk if I don't think I can
+realistically make say 10 times my initial risk I'm probably not going to take the trade many of my swing Longs I
+can make 20 30 50 times my initial rest now we're going to go on to the risk
+mitigation part so we've looked at identify we've looked at control we're now into risk mitigation for this method
+you don't need to scale it you can buy everything at once but you need to scale out
+sell one-third or one half of your position after three to five days and then use the 10-day moving average as
+your trailing stop then when the stock closes below the 10 day you sell the rest so we've got AMD
+and we've got four different entry examples here okay The Black Arrow is going to be the entry the green is going to be when you sell part in the first
+three to five days so one third one half of your position and then you'd move your stock to break even and then the red is going to be the exit either
+stopped out or exit because it closed below the key moving averages so see this would be a breakout entry here see
+how tight it got in here and then you sell one third one half of your position after three to five days move your stop
+loss to break even and then you get stopped out here here see how tight it gets in here here's the breakout so one
+third one half of your position three to five days afterwards and then you get stopped out here Titans back up here's the entry and then
+you get stopped out here then it makes a big move here's the entry here's where you sell three to five and then here's where you get stopped out here hopefully
+that's giving you a little bit of an example hopefully it's a bit common sense as well now we're moving into the optimizing profits face okay we kind of
+touched upon the um the the risk mitigation part I think it's pretty pretty straightforward what color Maggie
+is saying he's saying basically sell the one third to half of your position after three to five days move your stop to break even that ain't rocket science is
+it so optimize after three to five days you sell one third to one half of your shares then you move your stop to break
+even then use the 10-day moving average as your trailing slots which is looking at on the previous side good quote here
+extended stocks get more extended the whole point of Swing trading is giving the stocks room to move in day trading
+you're always near your entry always fighting near your entry swing trading you've just got to let things work out
+I.E give the stock time to Trent and this is kind of slightly into the
+mindset part of things which we'll come on to later it's better to sell a partial a little bit too late than too
+early better to sell 10 too late than 100 too early so this it now this is the
+actual data table that feeds into these results here but obviously I cannot show this in Clarity that you can actually read the figures so here's a print
+screen of it here is here is the um the result so this is my own test Mayan data Series so I looked at 500 of
+these stocks and I used the 10 email and the 21 EMA and I wanted to know from these these flags these penalty wedges
+these vcps these cover handles these Darvis boxes these breakouts how fast do the stocks move and I looked at 500 of
+them okay so what I have here is I eyeballed the initial stop loss now for me I tend to go low I go low the trigger
+bar day invariably and try and tie that in with being underneath one or more one or more key moving averages that's just me so for these 500 trades the average
+stop loss came in at 4.95 which is pretty much what I would be expecting to come in so that's nice Sub sub five
+percent there that's what I was kind of expecting and again I was just kind of eyeballing it for where would I have this obviously done in hindsight of
+looking back at the setup where would I place my stop losses on and so forth but about five percent is where I would have
+expected it to come in pretty kind of the data anyway so then I looked at okay what was the average percentage move
+before it closed below the 10 EMA 28.82 what was the average percentage move
+before it closed below the 21 EMA 42 so what was the average risk versus Ward if
+you're using the initial stock before the stock closed below the 10 EMA 5.71 for the 21 EMA 7.82 so for me and my own
+personal trading and I would encourage you to do to do your own story study I would ensure that qualamagi would tell
+you to do your own study and do your own research as well I use a combination that's why I've been talking about throughout this presentation I use a
+combination of the 10 EMA and also the 21 EMA for part of my position on a
+closed blood anyway part of my position on a close below the 21 you may it does somewhat depend on the individual stock
+and it does depend if the stock got really extended I will then invariably go lower the bar Lower the bar Lower the bar on part all of my position but I
+don't want to make this video too much about me but I did want to show you this data table here as I think is interesting sheds a little bit more
+light as well now what I want to show you is some optimize some simulations so as we've
+been making quite clear throughout this thing quite a Maggie sits for the Home Run trades he thinks sitting is really really really important as we're going
+to call him Jeff down here is sitting and he's quite stunned by these results so let's do some quotes then I'll take
+you through these simulations sometimes the hardest thing to do is hold a big winner it's so hard sometimes incredibly
+hard if you want to make big money you've got to be in the fast-moving stocks so I'm going to take you through
+some different scenarios here so we've got sitting okay sitting one sitting two sitting three and sitting four what
+we're saying is the starting account balance is 100 Grand there's 250 trades these metrics do not change the position
+size is going to be 12 of total account Equity that's not the risk that's the position so with 100 Grand you're
+putting 12 Grand into in into the setup it's then obviously compounding on top of that as well your win rate is going
+to be 40 okay which out of your 250 trades means you're going to have 150 losing trades
+and 100 winning trades and then for this instance we're going to say that the average loss is 10 so you've got a 150
+losing trades with an average loss of 10 so what I really want to do here is get you thinking about different
+uh different kind of metrics and why you are doing potentially what it is you are doing in terms of your strategy where
+are you targeting your average gain why are you doing it what are your sale rules about what are you trying to achieve that what is the math actually
+in the case what is more optimal is it optimal to try and sit for big moves is it better to take lots and lots of small
+winners and have really really small losses let's take a look so average lost 10 and you're going to have of your 100
+winning trades with your 40 hit rate 80 winning trades average game five percent basically nothing okay but you're gonna
+have some big Winners ten winning trades of a 50 gain 10 winning trades of 100 gain over the course of these 250 trades
+at the end you return 47 okay now the only metric we're going to change from sitting one to sitting two
+is we're going to bring your average loss down from 10 to 5 now suddenly you return 264 see how losses and keeping
+your average loss low so five percent instead of ten percent you've added over 200 to your to your return over the
+course of 250 trades then compound that out over 10 years and see what you get to interesting sitting three we're gonna
+mix it up a little bit okay the only difference that we're going to do now from sitting two is we're just going to say instead of your 80 winning trade
+averaging a five percent gain we're going to be a little bit more generous they're going to come in at a Plucky eight percent okay so you now have 80
+winning trades of eight percent ten winning trade to fifty percent and 10 winning trades of 100 but this is the
+only metric you now add another 100 just from bumping up from five percent to eight percent and obviously it's not
+going to come in perfect eight percent on 80 wins you're gonna have something to come in two percent eight percent fifteen percent twenty five percent two
+percent three percent nine percent Seventeen percent twenty one percent okay I'm just using this as an average to illustrate this is really important
+to actually understand the maths and reverse engineer the process I'm a big believer in reverse engineer the process
+okay where do you want to get to in the end reverse engineer it build the strategy to get you to where you want to
+go to really simple setting number four now the only thing we're going to change from sitting three to setting four is we
+are going to say you now get two monster games okay you get a one gain of 500 and
+you have 12 of your account in it and you get one gain of 700 and you had your account in it now if you're trading the
+quickest momentum stocks I don't think out of 250 trades that is unreasonable to think that you could have two
+extremely big games I don't think that's unreasonable if you are focusing on the real momentum leaders in the market I
+don't think that's an unreasonable expectation after your 250 trades you keep the average loss at five percent
+your return is quadruple digits one thousand and thirty seven percent so now if you ever wondered well how do I get
+to a triple digit year what do I actually need to do over the course is a 250 trades what do I need to do to get a
+thousand percent return because I'm a big believer in if you can see the goal if you can see it and you can think
+about it and you can build a strategy to get there you're much more likely to get that this is the reverse engineering process okay and this is why doing these
+videos like this where you're really actually go into the systems and the process as well how on Earth did koala Maggie turn five grand into 100 million
+starting to see it's getting the big Winners he did not do it like this in not setting one and not setting two
+where over here we're saying okay average loss it's saying 250 trades 40 win rate average lost five percent and
+then 100 winning trades 10 that returned 34 . he wasn't playing for the 10 games
+he's playing for the home runs he's coming in down here okay this is where he's coming in he's sitting for the big
+Winners the big Winners have an exponential effect on your bottom line as the quotes earlier were saying on not
+setting two now we're just changing it average loss staying five percent but 100 winners is 15 to their three to one
+Trader instead of a two to one Trader in terms of risk in terms of risk versus what or rewards however you want to
+think about it then the return is 141 but to get where Kuala Maggie is coming in okay in terms of
+if you actually think about the last eight years so you take out the the first two years where he lost 95 and
+around about 50 which then had an average um average annual return of about 268
+when he's coming in somewhere here isn't it around 264 if you look at the last eight years it's actually coming in
+closer to 350 so this is kind of what the results are looking like now the win rate is a little bit low he'll have some
+again this is kind of in terms of the maths here it's not going to come in this perfectly but hopefully you're understanding the point that I'm trying
+to illustrate getting the big trades right now and then makes a Monumental difference here's the maths behind the
+returns to really try and help you a couple of scenarios hit so you can see that we'll say Jeff was
+on the last side this is Jesse here Jesse's very happy why because Jesse is sitting in winners so scenario one
+scenario two scenario three scenario four I don't want to bore you too much but scenario 4 the 10 Trader compounded
+return on investment is 55.9 okay relative to say scenario two and
+scenario 1 where it's 33.95 with 50 win rate for 14 winners seven percent lose
+scenario two 40 win rate 14 winners and seven percent losses so they are two to one in terms of their game versus their
+loss 9.27 but look at this look at the Monumental difference here 55.9
+why the outsized gain air 50 win coming in and then the other ones okay 15 gains
+okay but ten percent five percent okay nothing Burgers but then controlling the rest three three five five five small
+losses big ones small losses Big Winners here's the math here's why it's really important a couple of quotes
+two slides on quotes which hopefully help illustrate this point so when I feel a stock is getting extended I'm not
+going to wait to Trail it with the 10-day moving average but a lot of times that's actually a mistake and you may
+have heard coromangi talking um podcast language chat chat with Traders um he actually found that sometimes he
+thinks he can kind of out he can outsmart his moving averages but he actually says oftentimes it's a mistake
+I should have just stuck with with the with the 10-day moving average draw use the close below the 10-day moving average as a trailing stop for at least
+one third or maybe half of your position the logic behind trailing with the 10-day moving average these home these
+home runs you catch a few of these you're going to make a lot of money as those simulations we're just showing you and this is what great swing trading
+burst and this is what is great with swing trading versus day trading you don't have to sit there and Scout for stupid small moves sit around your entry
+constantly looking for new trades new action you can just sit in it and have patience I sit in the position obviously
+it's easier said than done but there's a lot of logic behind all of these things because they work this is something
+you'll figure out once you look at thousands of stocks thousands of leading stocks big movies how they act around
+moving averages and how to develop cell rules this is all based on how do stocks act actually studying the stocks these
+moving averages work the 10 day is an incredibly good moving average for the biggest momentum stock it works so well
+it's not perfect but it works really well one more slide on optimize then we're into mindset so quote
+Latin one is wrong is the hardest thing ever so letting winners run is the hardest thing ever that's why you need
+to study I keep saying this you need to spend hundreds and hundreds of hours studying big winners over many different
+Market Cycles take the time you'll realize that stocks can ride the 10 20 50-day moving averages for big big moves
+educate yourself know how the market operates it's the same thing over and over these moving averages the 10 and 20
+day if you look at the biggest momentum stocks no matter where you look at the market leaders you can look at the
+market leaders from the 90s the 80s the 50s the 20s they move the same way they obey the same moving averages the 10 21
+50 and 200-day moving averages they've worked for 100 years and they're probably going to work for another 100
+years interesting now we're going to go into the mindset and actually if any of you know me know I'm a big football fan
+I'm actually a Liverpool fan so I don't know why I put Marcus rashford here but you'll note his celebration and you'll see a lot of football players doing this
+actually um Darwin Nunes scored a couple of weeks ago
+this celebration here now this is really interesting when I see again
+professional trading is not dissimilar to being a professional athlete whether that is a basketball player a football
+player whatever it may be the mental side of it your mindset is absolutely crucial and any of you know who Marcus
+rashford is will know he has been through I don't want to go into the story kind of too much um but he he has been through a lot in
+terms of mentally challenging things including missing a penalty at the Euro at the Euro 2020 finals
+um and then being the victim of a lot of racist abuse as well and again I I
+sometimes think it's hard having a small YouTube channel if you are a global Megastar in terms of a football player
+and you constantly have people talking absolute nonsense about you mentally it must be so difficult so what I find
+really interesting with Marcus rashford uh he is on absolute far at the minute um playing fantastically well baton and
+just back to his best but the celebration mental focus focus focus
+focus go and study the thing the things he's been doing so mentally just really focusing on himself and his whole game is improved significantly so he was he's
+been in some really hard places I actually really like Marcus rashford as a human being as well I think he does a lot of a lot of good things but it's
+interesting you see these top athletes doing this the mental side training is no different making millions in trading
+is not about rocket science it's all about patience and discipline what most people don't have is the patience The
+Temper just waiting and doing nothing most people want the fix being the action they need to be doing something
+all the time on being asked what a stop might do in a few sessions I don't think anything so again crack my mind is not
+predicting uh does this does this just listening to the market focusing on the market my trading affects my feelings
+outside of the market I can relate to that but my feelings outside of the market never affect my Trading there's
+no point having any opinions about this or that you've got to wait for price to tell you prices the only thing that pays
+nothing else me personally I just want to push my trading size to Infinity every year I want to increase my trading
+size every year I want to get better and bigger I've done it successfully for many years now you have to push yourself
+that last word is so empowering that gives you a real insight into qualamagi's mindset how empowering is
+that think about that think about his objectives think about his mindset that he wants to push his trading size he
+wants to get better he wants to get bigger he wants to push himself that there is a much more empowering mindset
+than many of you may have really think about your mindset why are you doing what it is you're doing I can't believe how many people I've unfollowing on
+Twitter because of their bearishness I started trading here in May 2012 here
+and the market keeps on going up and going up ever since I joined Twitter and started listening and reading financial
+news media all of these Bears they always they always talk about what can go wrong but no one ever talks about
+what can go right it's so stupid yes there will be bear markets along the way yes there will be Corrections shortly
+after I started trading the NASDAQ corrected 20 in a few weeks that's it 20 correction in here just looks like a
+blip now doesn't it yes eventually there will be a bear Market but what good is it to call a buyer Market if you're
+wrong for five ten years it's just so stupid only thing one really needs to do is follow the price so here's where
+Carla Maggie's died he was then where the growth Mark the um bear Market where the bear Market actually really started
+coming around here in q1 of um 2021 for growth stocks and then the market later topped out later in 2000 and 2021. all
+these worthless opinions all these expat no one knows nothing no one really knows anything so yes the market is currently
+then being in a bear Market but what follows bear markets bull markets will follow the spare Market bull market will follow this bear Market bull market what
+follow the spare Market bull market What followed the 2020 bear Market will be it was short-lived a really really really
+good their Market another one on mindset this is interesting as well then we're
+going to go into deliberate practice and actually think about how you can get better how to Quality mind you get so good at trading even the most successful
+Traders are going to be in a drawdown most of the time I think it's Robert Frey um or something like that found the
+S P 500 in YouTube it the S P 500 is actually in a drawdown of I think more than 15 about 70 uh if not 75 of the
+time which is quite interesting even this year even though I'm up at least 500 this is 2020. I've spent at least
+half of the year in a drawdown so 2020 quality monkey at this point is at 500 and half the year he's been in a
+drawdown at least expecting to be at Peak Equity all the time it's just not going to happen you're going to spend
+most of your time in a drawdown even on a really good year that's just how it works you need to realize it and accept
+it being in a drawdown is normal so just don't remember on the last side about the acceptance just listening to the
+market but also just accepting the reality of trading as well a lot of acceptance going on here being in a drawdown is normal I try to limit my
+drawdowns to 10 15 I think I've had two 30 drawdowns this year being 2020. if you want big returns
+you are going to have to have drawdowns if you don't have drawdowns it means you you don't take any risk and if you don't
+take any risk you won't have returns then he talks about Amazon here look at Amazon this on the monthly chart for
+Amazon it's one of the most amazing stocks ever history of the world it's up Circle 200 000 I actually think from the
+low here to the high here is like 270 000 um game obviously this is gonna Splurge us and
+stuff like that as well um look at the amount of time it's been in a drawdown at one time it was in a drawdown for 10 years here it is it's in
+a drawdown build high lows for 10 years out of the 23 years it's been public
+it's been in a drawdown for about 15 years so kylamide was then looking at this I think around about this time up
+um up here so maybe it was close to 200 200 rather than the absolute Peak here but this is the point look at the move
+Amazon's made 200 000 percent and for 15 years out of the 23 years it's been in a drawdown these kind of
+red zones here it's been in a drawer now it's been in Jordan you can go look at the same for Netflix Apple Microsoft
+whatever stock you want to look at okay but Amazon's a really good example stock that's gone up 200 000 15 out of 23
+years it's been in Jordan isn't that amazing isn't that amazing deliberate practice so
+deliberate practice if you follow me for a while well no I'm a big big proponent of deliberate practice so if you want to
+read a good book and the xeroxone peak the new science of expertise I think is the um kind of the motto under
+underneath it but Anders Erickson Peak it's a really good book on deliberate practice especially I'm a parent and for
+me trying to teach um my daughter things and especially because she is a toddler to do deliberate practice understand
+deliberate practice actually skill acquisition how do people learn things I actually think it's um fascinating and
+it goes back to Arnold's thing of if you wanna if you want to grow muscle reps and says reps and sets there's no
+shortcut reps and sets feedback loops okay reps and sets feed battling so there is a difference between knowledge
+and skill okay trading ultimately is a skill set okay it's not a knowledge quiz
+it's a skill set with deliberate practice your goal is knowledge but most importantly skill acquisition so yes you
+are trying to learn you're trying to improve your knowledge but you have to understand there is a difference between knowledge and skill okay knowledge and
+skill as I tried to differentiate here with this is a proverbial brain right you have skill on the left hand side
+knowledge on the right hand side don't quite work like that but knowledge and skill are two separate things so how do
+you improve your knowledge and it we're now specifically talking about trading how do you improve your knowledge on
+trading well you watch YouTube videos like this you can read books you can go to seminars you can read courses there's
+probably other things you can think of but these are kind of the main thought right that's going to improve your knowledge not necessarily your skill let
+me put this into context imagine you play golf basketball whatever right some sport do you think
+your skill being your handicap we're talking about golf do you think your skill being your handicap at golf would improve if you only watch YouTube videos
+read books and visualize success did you just have a little light bulb
+moment there okay do you think your skill your handicap at golf would improve if you only watch YouTube videos
+red books and visualize success because that's what a lot of people do with trading I'm gonna watch this YouTube
+video I'm going to read these books I'm going to read more books okay it's kind of like self-help porn in a way right you just get more and more and more you
+think you need more and more and more knowledge you need more knowledge more knowledge more knowledge no you need more skill you need more skill okay a
+lot of you will have especially by the end of this video hopefully you have a really good Baseline knowledge and this probably isn't the only trading video
+you've ever watched right you probably have really good knowledge already but it's now the skill acquisition it's the skill side that you need to work on so
+you have knowledge and then you have skill and I see this all the time people go like self-help pornography like they
+just love it they just think the answer to this the answer to me getting better at something is more information more
+knowledge more information more knowledge no it's skill you could read every book you could
+possibly read on golf or swimming you won't get better at golf or swimming your knowledge will improve but you
+won't actually get better at it so down here I love this my Uncle you can't learn to swim reading a book I have a
+two-year-old that I'm trying to teach to swim okay I could show Ella a book of swimming his front crawl his doggy
+paddle his brush stroke she ain't gonna get better at swimming how's she gonna get better at swimming she gets in the pool reps and sets and she gets feedback
+I help I instruct try this try that try that have you tried this obviously it's a little bit different when you're talking to a two year old but hopefully
+you can understanding the point so how can you actually get skill acquisition at trading how can you improve your
+skill set once you have the Baseline knowledge you need the Baseline knowledge I'm not saying knowledge is
+not important knowledge is very very very important but you need the knowledge stacked with the skill set knowledge and skill set is what you're
+looking for so most of you are really focused over here you're focus on the knowledge I need more YouTube videos I
+need more books I need more seminars I need more courses okay to an extent and but now you need the skill acquisition
+so how do we improve your skill set at trade it let's have a look so studying historical setups and annotating charts
+thousands and thousands and thousands and thousands of them train your pattern recognition it's the same patent
+Livermore told you it's the same bands while am I just standing in the same pan danzang is standing in the same patterns miniveini is telling you the same
+patterns I'm telling you the same patterns everyone William O'Neill standing insane bad Darvis is standing in the same patterns down one since then
+everyone is telling you it's the same patterns but you have to read that why in 100 different books that everyone's
+telling you it's the same patterns go study the patterns really ingrain it internalize it build your own chart
+model database with thousands of specific setups what is your specific setup and you may find your own new
+setup you may be well crikey actually what I've realized is when a stock has its earnings and then after the earnings
+invariably it will pull back down 20 to 30 and actually it can the first close
+below the 21 EMA and then recovery when it's this type of Candlestick leads to
+this move you may create your own setup or something like that or maybe you're kind of like Charles Harris so Charles
+Harris will do pullback buys what that he calls an upside reversal so a stock that's in the strong uptrend that meets
+ideally the canceling criteria then he's looking for what I will call a gap down reversal bar or shake out demand out
+around the key moving averages such as 21 email to 50 SMA so it's a different type of setup but how did he come up
+with that setup he studied the market he studied how stocks act so all of these traders that you're reading books about
+you're watching and YouTube videos and so on and so forth will you go into their selling horns you're buying their courses they all studied the market they
+studied stocks deliberately and came up with their setup it's now time for you to study it and come up with your own
+setups I know I'm ranting at you but sometimes that's the best way to coach it then what I think you need to do is
+bar by bar sessions so you've hopefully seen some of those on the channel bar by bar go bar by bar now you're not going
+to have the kind of emotions associated with real trading I think doing both is important but if you want to get a lot
+of reps and sets and a lot of feedback so remember deliberate practice is trying to create feedback loops so you're doing the activity so being
+trading this is applicable for bar by bar sessions where you're going through bar by bar you can't see the next bar and you're trying to identify setups in
+real time you're thinking about where's your entry price how are you initially looking to control the risk how are you looking to mitigate the risk how are you
+then optimizing profits logging your results so by the logging your results you'll then analyzing your trade so
+you're getting feedback the more instant your feedback the better so if you think about when you're at the golf course at
+a driving range okay if you're having a one-to-one lesson with a pro or you've got someone watching you or someone's
+filming you or even even just filming yourself in your swing okay what are you doing let's just say you have you have
+your iPhone there or your iPad or whatever you've taken it along you put it behind you in the bay there's probably making no sense if you're not a
+golfer but you're filming yourself take your golf swing now why on Earth would you film yourself take your golf
+tournament why would you do that you're trying to create feedback for yourself because you go hmm at the minute I'm hitting a slice I'm hitting a slice and
+I don't know why I'm hitting a slice I know let me film and then I'll watch my swing back and I'll try and identify why
+I'm hitting the slice so what you're then doing is you're creating feedback for yourself make sense so you've done
+the activity you've now created feedback for yourself you are analyzing the feedback and then you are putting in
+rules and ideas to try for the next activity being the next golf shot so
+activity feedback implementation of new ideas and rules to improve desired performance then you redo the activity
+feedback loops feedback loops like this okay feedback loops that is what you're trying to create with of your own
+trading so you can do far more trades doing the bar by bar sessions okay in
+space of if you did an hour bar by bar session you can probably take I know 50 trades something like that how many how
+long would it take you to do 50 trades in real time and then get the feedback on those trades as well so again we're
+trying to speed up your skill set okay how quickly you can acquire skills as Arnold said reps and sets reps and sets
+reps and sets so I think the bar by bar stuff you won't get kind of the emotion of oh I got money on this but in terms
+of actually creating skill sets around trading thinking about entry setups controlling risks mitigation of risk and
+then the optimizing profits is going to be important for that part it's not going to help you so much with the emotional control so deliberate practice
+is very deliberate in different areas of your trading where you're trying to improve your skill set okay so it's not necessarily
+all-encompassing so with you with golf for instance okay it's very hard to work on your
+putting whilst you're working on improving your seven iron or improving your throughwood or improving your driver you would have deliberate
+practice sessions for each specific area so you can have deliberate practice sessions for how you are deliberately
+trying to improve upon specific areas of your trading so say if you're a basketball player I'm a huge you can
+probably set over my um shoulder here somebody and see Kobe Bryant rest in peace I um I absolutely
+love Kobe and Michael Michael Jordan's up there as well interesting Michael Jordan had ADHD um he didn't know when he was playing
+with the Chicago Bulls as far as I'm aware which is quite interesting um but either way when they're practicing their game they're practicing
+specific parts of their game okay I'm practicing the layup so I came practicing my jumper and practicing my my free throws okay whatever whatever it
+may be I'm practicing my dribbling with my weekend so your deliberate practice sessions you've really got to think about yourself as a kind of an athlete
+but this is then hopefully a huge mindset mindset shift for you that you probably have a lot of knowledge you
+probably have a lot of trading knowledge this is probably not the first YouTube video you've ever watched you've probably watched hundreds of YouTube
+videos read tens and tens of books if not hundreds of books on this gone to Santa Moore's bought courses but have
+you really improved and if you haven't improved why haven't you improved it's because your skill set has not improved
+we've really got to work on your skill set improving your skill set and then a lot of it also Dan's anger quote is
+Right Trader right mentality right Market environment as we started off earlier on in this presentation the
+right Market environment is very important for whatever strategy you're trading okay whether that be value
+investing or whether it be as we've covered in this video which is a momentum breakout strategy the
+environment you find yourself in is very very very important but that part of it as well is skill knowing am I in a
+market environment that is conducive for my style of trading and if it's not don't trade very much or trade very
+small and if you're a bit of an addict like me make sure you're just trading really small makes sense actually trading and
+analyzing your results really important so like the bar by bar sessions but you can get more reps and sets in quicker
+with the bar by bar sessions actually analyzing actually trading with real money personally I think is important I'm not
+telling you to trade it's not Financial advice I'm just saying I think it's quite important especially with emotional control getting your emotions
+involved because suddenly something's on the line it means something more to you okay then you're gonna act a little bit
+differently maybe you don't cut the losses because you can't accept being wrong that's something that you're going to have to look at and really work on
+receiving feedback on your trades so that can be from other trade you probably don't want to
+ask someone that's never traded for feedback on your trade so it's probably not going to make gonna make sense um but it could be kind of your trading
+buddy it could be someone who is much more experienced than you you say hey look these um these are my last 10 trades here's my entries here's my exit
+what do you think what am I doing right what am I not doing right but also do that with your own traits you can mark them up on your laptop you can print
+them off if you want mark them up where you buy what is going on are you potentially buying late are you not controlling the risk have you got really
+um are you really bad at taking losses are you really really good at taking your losses but actually you Snapchat really small gains when you print the
+chart off and you mark it and you kind of see it in the third person you're going to see your mistakes oh I'm doing
+this I'm doing that oh that wasn't actually a very good setup why did I buy it there I missed that why did I Snapchat that profit when the stock why
+did I sell out the 10 and then stock went up 100 why did I do that I need to put rules in place around that it's
+really really really important so a few quotes I'm qualamagi on deliberate practice okay there's two slides on deliberate
+practice quiz it's been quite a long section I didn't think it was going to be this longer section but deliberate practice honestly so so important
+especially if you're a parent or kids read the book by in the Xerox and it's really key yeah volatility contraction pattern vcp like minavini all the
+successful Traders use the same methods minovini also like Dan's anger and how I trade it's the same principle because
+they work you find a strong stock that's made a big move then it goes sideways for a while and it gets really really tight and then it has the next leg move
+heart it's the same setup it's Timeless setup it's not going to go away you can go and look at stock charts from the 20s
+the 30s the 40s the 50s the 60s the 70s the 80s the 2000s it's the same exact
+patterns over and over and over again it's not rocket science you guys can pause the video and read the rest of
+that one it's not a discipline problem it's a confidence problem you haven't put in enough effort to build your
+confidence if you study enough examples of a certain breakout or a certain setup you will build confidence how many of
+you have spent 500 hours studying one specific setup like thousands of historical examples be honest you have
+no confidence holding for a big move because but you get shaken out on one downtake these things happen all the
+time you have no confidence because you haven't built it let me show you one more slide you've got to study hard
+you've got to you've got to out study most people and combine it with experience if you make no Trope no
+trades and just focus on Theory remember that knowledge side you're not going to be successful but most people have the
+other problem they do no studying and just do random things in terms of trade there's no real willingness to learn to
+properly trade a lot people think they want to become profitable Traders but most of them aren't willing to put in the effort and the pain that is required
+this is the chart setup you probably would have known this by now these are the only indicators you should be using the 10 day the 20-day
+the 50-day moving averages anytime you have a clean bounce off one of these moving averages that's a nice
+thing so hopefully you know what the charts look like look like by now but here is a visual example this is what color rank is saying the only thing you
+need on it I like putting some things on like the RS line some of the longer term moving averages but my charts overall I'd say are pretty pretty clean now
+we're at the end so I want to give you six key takeaways and I would ask if you made it to the end of this video please
+do subscribe to the channel to be notified when I do more videos like this and also press the like button it really
+helps me out to grow the channel it takes a lot of time and effort to build these videos for you guys so if you do appreciate them I would appreciate it if
+you press the like button for me especially if you made it all the way to the end which is now over two hours so well on you so six key takeaways what
+can you actually do I think to start improving let's go study thousands of historical setups from the past 100
+years and create your own setup model books that's an absolute must it is an absolute must if you want to take this
+seriously that's a must be patient with yourself and allow time to develop the required skill set remember that golf
+analogy with the handicap it's going to take time to build your skill set of golf you can't just go into a driving range start bombing a driver 300 yards
+it's not going to happen like that you've got to build up to it you've got to require you've got to build the skill set no one strategy will perform
+optimally in every Market environment sit out power and patience is very very important to develop the best strategies
+create setups focus on asymmetric risk to reward opportunities and keep you in Trend even if you're a day trader on the
+five minute chart you need Trends you need Trends you need to sit in the trends you need the big Winners to pay for the small losses learn to trade the
+right stocks for your strategy that could be if you're a value investor or if you're a momentum Trader you need to
+be trading the right stocks for your strategy the best Traders are the best losers
+as I said at the start the best Traders are the best losers by the quote by quality Market care get really really
+really good at taking losses the better loser you are at this better Trader you are going to be and on that note I will
+wrap it up there thank you very much for watching this video and I look forward to seeing you in the future
+

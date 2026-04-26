@@ -1,0 +1,19 @@
+STARTUP COMMANDS:
+Terminal 1 - Backend:
+cd C:\proj\QualMaggie
+source .venv/Scripts/activate
+python -m uvicorn backend.main:app --reload
+
+Terminal 2 - Frontend:
+cd C:\proj\QualMaggie\frontend
+npm run dev
+
+Terminal 3 - Claude Code:
+cd C:\proj\QualMaggie
+source .venv/Scripts/activate
+claude
+
+Terminal 4 - Scripts:
+cd C:\proj\QualMaggie
+source .venv/Scripts/activate
+python scripts/[script_name].py
