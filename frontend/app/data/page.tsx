@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { RefreshCw, Loader2, Upload } from "lucide-react";
-import { updatePrices, updateEarnings, importFolder, importCsvFile, getDataStatus } from "@/lib/api";
+import { updatePrices, updateEarnings, importFolder, importCsvFile, getDataStatus, resetBacktests, hardReset } from "@/lib/api";
 import { BackendBusy } from "@/components/BackendBusy";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -166,6 +166,183 @@ function CsvImportButton({ onDone }: { onDone?: () => void }) {
         >
           {message}
         </p>
+      )}
+    </div>
+  );
+}
+
+// ─── Reset Backtests Button ───────────────────────────────────────────────────
+
+function ResetBacktestsButton() {
+  const [status, setStatus] = useState<"idle" | "running" | "done" | "error">("idle");
+  const [message, setMessage] = useState("");
+
+  const handle = async () => {
+    const ok = window.confirm(
+      "This will delete all backtest history, trades, open positions, and portfolio snapshots.\n\n" +
+      "Price data and tickers are kept.\n\nAre you sure?"
+    );
+    if (!ok) return;
+    setStatus("running");
+    setMessage("");
+    try {
+      const res = await resetBacktests();
+      setStatus("done");
+      setMessage(JSON.stringify((res as { data: unknown }).data, null, 2));
+    } catch (e: unknown) {
+      setStatus("error");
+      setMessage((e as { message?: string }).message ?? "Unknown error");
+    }
+  };
+
+  return (
+    <div className="card flex flex-col gap-3">
+      <div>
+        <div className="text-sm font-medium">Reset Backtests</div>
+        <div className="text-xs mt-0.5" style={{ color: "var(--text-secondary)" }}>
+          Delete all backtest history, trades, positions, and snapshots. Price data and tickers are preserved.
+        </div>
+      </div>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={handle}
+          disabled={status === "running"}
+          className="text-xs px-3 py-1.5 rounded font-medium transition-opacity"
+          style={{
+            background: "var(--yellow)",
+            color: "#000",
+            opacity: status === "running" ? 0.5 : 1,
+          }}
+        >
+          {status === "running" ? "Resetting…" : "Reset Backtests"}
+        </button>
+        {status === "done" && <span className="text-xs" style={{ color: "var(--green)" }}>Done</span>}
+        {status === "error" && <span className="text-xs" style={{ color: "var(--red)" }}>Error</span>}
+      </div>
+      {message && (
+        <pre
+          className="text-xs rounded p-2 overflow-x-auto"
+          style={{
+            background: "var(--bg-elevated)",
+            color: status === "error" ? "var(--red)" : "var(--text-secondary)",
+            maxHeight: 140,
+          }}
+        >
+          {message}
+        </pre>
+      )}
+    </div>
+  );
+}
+
+// ─── Hard Reset Button ────────────────────────────────────────────────────────
+
+function HardResetButton() {
+  const [phase, setPhase] = useState<"idle" | "confirming" | "running" | "done" | "error">("idle");
+  const [confirmText, setConfirmText] = useState("");
+  const [message, setMessage] = useState("");
+
+  const canSubmit = confirmText === "CONFIRM" && phase === "confirming";
+
+  const doReset = async () => {
+    setPhase("running");
+    try {
+      const res = await hardReset("CONFIRM");
+      setPhase("done");
+      setMessage(JSON.stringify((res as { data: unknown }).data, null, 2));
+    } catch (e: unknown) {
+      setPhase("error");
+      setMessage((e as { message?: string }).message ?? "Unknown error");
+    }
+  };
+
+  return (
+    <div
+      className="card flex flex-col gap-3"
+      style={{ borderColor: "rgba(239,68,68,0.4)", borderWidth: 1, borderStyle: "solid" }}
+    >
+      <div>
+        <div className="text-sm font-medium" style={{ color: "var(--red)" }}>Hard Reset</div>
+        <div className="text-xs mt-0.5" style={{ color: "var(--text-secondary)" }}>
+          WARNING: Deletes ALL data including price history and tickers. Requires full re-import afterward.
+        </div>
+      </div>
+
+      {phase === "idle" && (
+        <button
+          onClick={() => setPhase("confirming")}
+          className="text-xs px-3 py-1.5 rounded font-medium self-start"
+          style={{ background: "var(--red)", color: "#fff" }}
+        >
+          Hard Reset…
+        </button>
+      )}
+
+      {phase === "confirming" && (
+        <div className="flex flex-col gap-2">
+          <p className="text-xs" style={{ color: "var(--red)" }}>
+            Type <strong>CONFIRM</strong> to proceed. This cannot be undone.
+          </p>
+          <input
+            type="text"
+            value={confirmText}
+            onChange={(e) => setConfirmText(e.target.value)}
+            placeholder="Type CONFIRM"
+            autoFocus
+            className="text-xs px-2 py-1.5 rounded font-mono"
+            style={{
+              background: "var(--bg-elevated)",
+              border: "1px solid var(--border)",
+              color: "var(--text-primary)",
+              width: 160,
+              outline: "none",
+            }}
+          />
+          <div className="flex gap-2">
+            <button
+              onClick={doReset}
+              disabled={!canSubmit}
+              className="text-xs px-3 py-1.5 rounded font-medium transition-opacity"
+              style={{ background: "var(--red)", color: "#fff", opacity: canSubmit ? 1 : 0.35 }}
+            >
+              Confirm Delete All
+            </button>
+            <button
+              onClick={() => { setPhase("idle"); setConfirmText(""); }}
+              className="text-xs px-3 py-1.5 rounded font-medium"
+              style={{
+                background: "var(--bg-elevated)",
+                border: "1px solid var(--border)",
+                color: "var(--text-secondary)",
+              }}
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
+
+      {phase === "running" && (
+        <span className="text-xs" style={{ color: "var(--text-muted)" }}>Deleting all data…</span>
+      )}
+      {phase === "done" && (
+        <span className="text-xs" style={{ color: "var(--green)" }}>Done — all data deleted</span>
+      )}
+      {phase === "error" && (
+        <span className="text-xs" style={{ color: "var(--red)" }}>Error</span>
+      )}
+
+      {message && (
+        <pre
+          className="text-xs rounded p-2 overflow-x-auto"
+          style={{
+            background: "var(--bg-elevated)",
+            color: phase === "error" ? "var(--red)" : "var(--text-secondary)",
+            maxHeight: 140,
+          }}
+        >
+          {message}
+        </pre>
       )}
     </div>
   );
@@ -337,6 +514,16 @@ export default function DataPage() {
           description="Scan the dataInput folder and import all Barchart CSV files found."
           onRun={importFolder}
         />
+      </div>
+
+      <div className="mb-2">
+        <div className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "var(--text-muted)" }}>
+          Database Reset
+        </div>
+        <div className="flex flex-col gap-4">
+          <ResetBacktestsButton />
+          <HardResetButton />
+        </div>
       </div>
 
       {statusError ? (

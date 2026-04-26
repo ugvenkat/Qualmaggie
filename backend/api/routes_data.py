@@ -15,7 +15,7 @@ from typing import Optional
 
 from fastapi import APIRouter, HTTPException, UploadFile
 from pydantic import BaseModel
-from sqlalchemy import func, select
+from sqlalchemy import func, select, text
 
 from backend.config.settings import get_settings
 from backend.core.indicators import calculate_all, calculate_and_store
@@ -68,6 +68,15 @@ class TickerStatusResponse(BaseModel):
     row_count: int
     earliest_date: Optional[str]
     last_date: Optional[str]
+
+
+class ResetResponse(BaseModel):
+    rows_deleted: dict[str, int]
+    message: str
+
+
+class HardResetRequest(BaseModel):
+    confirmation: str
 
 
 @router.post("/import-csv", response_model=ImportResponse)
@@ -187,6 +196,73 @@ def update_earnings():
     return EarningsUpdateResponse(
         symbols_processed=len(results),
         dates_by_symbol=results,
+    )
+
+
+@router.post("/reset-backtests", response_model=ResetResponse)
+def reset_backtests():
+    """
+    Soft reset: delete all backtest history (trades, positions, snapshots,
+    performance reports, blacklist, backtest runs).  Price data and tickers
+    are preserved.  Identity columns are reseeded to 0.
+    """
+    # Delete in FK-safe order (children before parents)
+    _SOFT_TABLES = [
+        "Blacklist",
+        "PortfolioSnapshot",
+        "OpenPositions",
+        "PerformanceReport",
+        "Trades",
+        "BacktestRuns",
+    ]
+    rows_deleted: dict[str, int] = {}
+    with get_db() as session:
+        for table in _SOFT_TABLES:
+            result = session.execute(text(f"DELETE FROM dbo.{table}"))
+            rows_deleted[table] = result.rowcount
+        for table in _SOFT_TABLES:
+            session.execute(text(f"DBCC CHECKIDENT ('dbo.{table}', RESEED, 0)"))
+    return ResetResponse(
+        rows_deleted=rows_deleted,
+        message="Soft reset complete. Price data and tickers preserved.",
+    )
+
+
+@router.post("/hard-reset", response_model=ResetResponse)
+def hard_reset(body: HardResetRequest):
+    """
+    Hard reset: deletes ALL data including price history and tickers.
+    Requires body: {"confirmation": "CONFIRM"}.
+    Identity columns for all tables are reseeded to 0.
+    """
+    if body.confirmation != "CONFIRM":
+        raise HTTPException(
+            status_code=400,
+            detail="Confirmation required. Send {\"confirmation\": \"CONFIRM\"}.",
+        )
+
+    _ALL_TABLES_ORDERED = [
+        "Blacklist",
+        "OpenPositions",
+        "PortfolioSnapshot",
+        "PerformanceReport",
+        "Trades",
+        "BacktestRuns",
+        "EarningsDates",
+        "MacroEventDates",
+        "PriceData",
+        "Tickers",
+    ]
+    rows_deleted: dict[str, int] = {}
+    with get_db() as session:
+        for table in _ALL_TABLES_ORDERED:
+            result = session.execute(text(f"DELETE FROM dbo.{table}"))
+            rows_deleted[table] = result.rowcount
+        for table in _ALL_TABLES_ORDERED:
+            session.execute(text(f"DBCC CHECKIDENT ('dbo.{table}', RESEED, 0)"))
+    return ResetResponse(
+        rows_deleted=rows_deleted,
+        message="Hard reset complete. All tables are empty.",
     )
 
 

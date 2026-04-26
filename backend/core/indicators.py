@@ -108,6 +108,19 @@ def _nan_to_none(value: float) -> Optional[float]:
     return float(value)
 
 
+# DECIMAL(10,6) allows 4 integer digits → max |value| = 9999.9999
+_DECIMAL_10_6_MAX = 9999.9999
+
+def _clamp_decimal10_6(value: float) -> Optional[float]:
+    """Clamp to DECIMAL(10,6) range after NaN/inf check. Returns None if out-of-range would lose meaning."""
+    v = _nan_to_none(value)
+    if v is None:
+        return None
+    if abs(v) > _DECIMAL_10_6_MAX:
+        return None  # extreme outlier — store NULL rather than silently truncate
+    return v
+
+
 # ---------------------------------------------------------------------------
 # Pure computation (public)
 # ---------------------------------------------------------------------------
@@ -270,9 +283,9 @@ def calculate_and_store(symbol: str, session: Session) -> int:
             "sma200": _nan_to_none(row.SMA200),
             "ema10": _nan_to_none(row.EMA10),
             "ema20": _nan_to_none(row.EMA20),
-            "atr_pct": _nan_to_none(row.ATRPct),
+            "atr_pct": _clamp_decimal10_6(row.ATRPct),
             "adr": _nan_to_none(row.ADR),
-            "rs_score": _nan_to_none(row.RSScore),
+            "rs_score": _clamp_decimal10_6(row.RSScore),
         }
         for row in df.itertuples(index=False)
     ]

@@ -36,7 +36,10 @@ export const importCsvFile = (file: File) => {
     headers: { "Content-Type": "multipart/form-data" },
   });
 };
-export const getDataStatus = () => api.get("/api/data/status", GET10);
+export const getDataStatus    = () => api.get("/api/data/status", GET10);
+export const resetBacktests  = () => api.post("/api/data/reset-backtests");
+export const hardReset       = (confirmation: string) =>
+  api.post("/api/data/hard-reset", { confirmation });
 
 // --- Performance ---
 export const getPerformance = () => api.get("/api/performance",           GET10);

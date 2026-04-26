@@ -12,6 +12,7 @@ Public API
 from __future__ import annotations
 
 import logging
+import math
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from typing import Optional
@@ -23,6 +24,7 @@ from sqlalchemy.orm import Session
 from backend.config.settings import Settings, get_settings
 from backend.core.market_filter import check_market, get_market_status
 from backend.core.pattern_detector import detect_vcp
+from backend.core.position_manager import calculate_initial_stop, calculate_position_size
 from backend.core.stock_filter import apply_stock_filters
 from backend.db.database import get_engine
 from backend.db.models import PriceData, Ticker
@@ -40,6 +42,7 @@ _SCAN_LOOKBACK: int = 260
 
 @dataclass
 class ScanResult:
+    # ── Required fields (no defaults) ────────────────────────────────────────
     symbol: str
     sector: str
     exchange: str
@@ -50,16 +53,66 @@ class ScanResult:
     sma200: Optional[float]
     ema10: Optional[float]
     rs_score: Optional[float]
-    pivot_high: Optional[float]          # entry trigger from VCP
+    pivot_high: Optional[float]           # entry trigger from VCP
     distance_from_high_pct: Optional[float]
     contractions_count: Optional[int]
-    preferred_quality: bool              # VCP has >= vcp_preferred_contractions
-    is_breakout_candidate: bool          # price within 2% of pivot high
+    preferred_quality: bool               # VCP has >= vcp_preferred_contractions
+    is_breakout_candidate: bool           # price within 2% of pivot high
     has_earnings_warning: bool
     has_macro_warning: bool
-    quality_score: int = 0               # Fix 4: 0–10 composite setup quality
-    failed_filters: list[str] = field(default_factory=list)   # empty = passed all
+
+    # ── Fields with defaults ─────────────────────────────────────────────────
+    quality_score: int = 0                # 0–10 composite setup quality
+    failed_filters: list[str] = field(default_factory=list)
     vcp_details: Optional[dict] = None
+
+    # ── Enhanced signal fields (Task 1) ──────────────────────────────────────
+
+    # Basic info
+    signal_date: Optional[date] = None
+    pattern_description: str = ""        # e.g. "VCP (3 contractions)"
+    signal_strength: str = ""            # "Fresh" (within 2% of pivot) | "Extended"
+
+    # Entry info
+    adr: Optional[float] = None          # raw ADR in dollars (for stop calculation)
+    entry_price: Optional[float] = None  # close * 1.002 estimate (live scan approx)
+    pivot_point: Optional[float] = None  # alias of pivot_high for API clarity
+    distance_from_pivot_pct: Optional[float] = None  # alias of distance_from_high_pct
+
+    # Stop & risk
+    stop_loss_price: Optional[float] = None
+    stop_loss_pct: Optional[float] = None
+    max_stop_as_adr_fraction: Optional[float] = None
+
+    # Risk/reward
+    risk_reward_ratio: float = 3.0
+    recommended_shares: Optional[int] = None
+    recommended_position_size_usd: Optional[float] = None
+    max_loss_usd: Optional[float] = None
+
+    # Setup quality detail
+    prior_move_pct: Optional[float] = None      # % move before base (e.g. 45.2)
+    base_length_days: Optional[int] = None
+    num_contractions: Optional[int] = None
+    tightest_contraction_pct: Optional[float] = None
+    volume_dry_up_pct: Optional[float] = None
+
+    # Relative strength
+    rs_rank: Optional[int] = None               # percentile vs universe 1–100
+    rs_vs_spy_6m: Optional[float] = None        # % outperformance vs SPY
+    distance_from_52w_high_pct: Optional[float] = None
+    distance_from_200sma_pct: Optional[float] = None
+
+    # Warnings (with API-friendly names)
+    earnings_date_next: Optional[date] = None
+    days_to_earnings: Optional[int] = None
+    earnings_warning: bool = False
+    macro_event_warning: bool = False
+
+    # Market context
+    market_status_label: str = ""        # "Healthy" | "Neutral" | "Weak"
+    spy_above_50sma: bool = False
+    spy_10ema_above_20ema: bool = False
 
 
 # ---------------------------------------------------------------------------
@@ -106,11 +159,25 @@ def _check_macro_warning(
     """Return True if any macro event is within macro_event_warning_days of as_of_date."""
     if not event_dates:
         return False
-    threshold = timedelta(days=settings.macro_event_warning_days)
     for ev in event_dates:
         if abs((ev - as_of_date).days) <= settings.macro_event_warning_days:
             return True
     return False
+
+
+def _market_label(ms: dict | None) -> tuple[str, bool, bool]:
+    """Return (label, spy_above_50sma, spy_10ema_above_20ema) from a market_status dict."""
+    if not ms:
+        return "", False, False
+    close_above = bool(ms.get("close_above_sma50", False))
+    ema_above = bool(ms.get("ema10_above_ema20", False))
+    if close_above and ema_above:
+        label = "Healthy"
+    elif close_above or ema_above:
+        label = "Neutral"
+    else:
+        label = "Weak"
+    return label, close_above, ema_above
 
 
 def _scan_ticker(
@@ -121,6 +188,7 @@ def _scan_ticker(
     settings: Settings,
     preloaded_dfs: dict[int, pd.DataFrame] | None = None,
     earnings_dates: dict[str, list[date]] | None = None,
+    market_status: dict | None = None,
 ) -> ScanResult:
     """Run all filters and VCP detection for one ticker."""
     ticker_id: int = ticker_row.ticker_id
@@ -155,8 +223,6 @@ def _scan_ticker(
     # ------------------------------------------------------------------
     if preloaded_dfs is not None and ticker_id in preloaded_dfs:
         full_df = preloaded_dfs[ticker_id]
-        # Pass all rows up to as_of_date — detect_vcp uses .tail(120) internally
-        # for pattern detection and accesses the full slice for prior-move check.
         df = full_df[full_df["trade_date"] <= pd.Timestamp(as_of_date)].copy()
     else:
         engine = get_engine()
@@ -195,6 +261,8 @@ def _scan_ticker(
 
     close = float(latest["close_price"]) if latest["close_price"] is not None else 0.0
     atr_pct = float(latest["atr_pct"]) if latest.get("atr_pct") is not None else None
+    adr_raw = latest.get("adr")
+    adr_val = float(adr_raw) if adr_raw is not None else None
     sma200 = float(latest["sma200"]) if latest.get("sma200") is not None else None
     ema10 = float(latest["ema10"]) if latest.get("ema10") is not None else None
     rs_score = float(latest["rs_score"]) if latest.get("rs_score") is not None else None
@@ -216,9 +284,7 @@ def _scan_ticker(
     passed_filters, failed_filters = apply_stock_filters(symbol, latest_row, settings)
 
     # ------------------------------------------------------------------
-    # Earnings check — uses preloaded dict when available (backtester),
-    # otherwise falls back to DB-free False (live scan without data).
-    # EarningsHardBlock=true promotes a warning to a hard filter failure.
+    # Earnings check
     # ------------------------------------------------------------------
     ticker_earnings: list[date] = (earnings_dates or {}).get(symbol, [])
     has_earn = any(
@@ -229,11 +295,110 @@ def _scan_ticker(
         failed_filters = list(failed_filters) + ["EarningsBlock"]
 
     # ------------------------------------------------------------------
-    # VCP detection (always run for logging; not gated on filter pass)
+    # VCP detection (always run; not gated on filter pass)
     # ------------------------------------------------------------------
     vcp = detect_vcp(df, settings)
 
     has_macro = _check_macro_warning(macro_event_dates, as_of_date, settings)
+
+    # ------------------------------------------------------------------
+    # Task 1 + Task 5: Compute enhanced signal fields
+    # ------------------------------------------------------------------
+
+    # Entry price estimate (close * 1.002; backtester uses actual next-day open)
+    entry_price_est = round(close * 1.002, 4) if close > 0 else None
+
+    # Stop loss calculation and ADR rejection (mirrors backtester Fix 3)
+    stop_loss_price: Optional[float] = None
+    stop_loss_pct: Optional[float] = None
+    if adr_val is not None and entry_price_est is not None and entry_price_est > 0:
+        stop_loss_price = calculate_initial_stop(entry_price_est, adr_val, settings)
+        stop_loss_pct = round((entry_price_est - stop_loss_price) / entry_price_est * 100, 2)
+
+        # Task 5: Reject if stop too wide relative to ADR
+        stop_dist_pct = (entry_price_est - stop_loss_price) / entry_price_est
+        adr_pct_of_entry = adr_val / entry_price_est
+        if stop_dist_pct > adr_pct_of_entry * settings.max_stop_as_adr_fraction:
+            failed_filters = list(failed_filters) + ["StopTooWide"]
+            logger.debug(
+                "_scan_ticker(%s): rejected — stop %.2f%% > %.2f× ADR (%.2f%%)",
+                symbol, stop_dist_pct * 100,
+                settings.max_stop_as_adr_fraction, adr_pct_of_entry * 100,
+            )
+
+    # Position sizing (hypothetical, uses settings.portfolio_size)
+    recommended_shares: Optional[int] = None
+    recommended_position_size_usd: Optional[float] = None
+    max_loss_usd: Optional[float] = None
+    if (
+        stop_loss_price is not None
+        and entry_price_est is not None
+        and stop_loss_price < entry_price_est
+    ):
+        recommended_shares = calculate_position_size(
+            entry_price_est, stop_loss_price,
+            settings.portfolio_size, 0.0, settings,
+        )
+        if recommended_shares > 0:
+            recommended_position_size_usd = round(recommended_shares * entry_price_est, 2)
+            max_loss_usd = round(recommended_shares * (entry_price_est - stop_loss_price), 2)
+
+    # VCP detail fields
+    pattern_description = ""
+    prior_move_pct: Optional[float] = None
+    base_length_days: Optional[int] = None
+    num_contractions: Optional[int] = None
+    tightest_contraction_pct: Optional[float] = None
+    volume_dry_up_pct: Optional[float] = None
+    if vcp:
+        n_c = vcp["contractions_count"]
+        pattern_description = f"VCP ({n_c} contraction{'s' if n_c != 1 else ''})"
+        prior_move_pct = round(vcp["prior_move_pct"] * 100, 1)
+        base_length_days = vcp.get("base_length_days")
+        num_contractions = n_c
+        tightest_contraction_pct = round(vcp["tightest_range_pct"] * 100, 2)
+        vols = vcp.get("volumes", [])
+        if len(vols) >= 2 and vols[0] > 0:
+            volume_dry_up_pct = round((1.0 - vols[-1] / vols[0]) * 100, 1)
+
+    # Signal strength
+    signal_strength = ""
+    if vcp:
+        signal_strength = "Fresh" if vcp["is_breakout_candidate"] else "Extended"
+
+    # Relative strength fields
+    rs_vs_spy_6m: Optional[float] = None
+    if rs_score is not None:
+        rs_vs_spy_6m = round((rs_score - 1.0) * 100, 2)
+
+    # Distance from 52-week high
+    distance_from_52w_high_pct: Optional[float] = None
+    try:
+        cutoff_ts = pd.Timestamp(as_of_date) - pd.Timedelta(days=365)
+        df_52w = df[df["trade_date"] >= cutoff_ts]
+        if not df_52w.empty and close > 0:
+            high_52w = float(df_52w["high_price"].max())
+            if high_52w > 0:
+                distance_from_52w_high_pct = round((close - high_52w) / high_52w * 100, 2)
+    except Exception:
+        pass
+
+    # Distance from 200 SMA
+    distance_from_200sma_pct: Optional[float] = None
+    if sma200 is not None and sma200 > 0:
+        distance_from_200sma_pct = round((close - sma200) / sma200 * 100, 2)
+
+    # Next earnings date and days-to-earnings
+    earnings_date_next: Optional[date] = None
+    days_to_earnings: Optional[int] = None
+    if ticker_earnings:
+        upcoming = [ed for ed in ticker_earnings if (ed - as_of_date).days >= 0]
+        if upcoming:
+            earnings_date_next = min(upcoming)
+            days_to_earnings = (earnings_date_next - as_of_date).days
+
+    # Market context
+    market_status_label, spy_above_50sma, spy_10ema_above_20ema = _market_label(market_status)
 
     return ScanResult(
         symbol=symbol,
@@ -256,6 +421,36 @@ def _scan_ticker(
         has_macro_warning=has_macro,
         failed_filters=failed_filters,
         vcp_details=vcp,
+        # Enhanced fields
+        signal_date=as_of_date,
+        pattern_description=pattern_description,
+        signal_strength=signal_strength,
+        adr=adr_val,
+        entry_price=entry_price_est,
+        pivot_point=vcp["pivot_high"] if vcp else None,
+        distance_from_pivot_pct=vcp["distance_from_high_pct"] if vcp else None,
+        stop_loss_price=stop_loss_price,
+        stop_loss_pct=stop_loss_pct,
+        max_stop_as_adr_fraction=settings.max_stop_as_adr_fraction,
+        risk_reward_ratio=3.0,
+        recommended_shares=recommended_shares,
+        recommended_position_size_usd=recommended_position_size_usd,
+        max_loss_usd=max_loss_usd,
+        prior_move_pct=prior_move_pct,
+        base_length_days=base_length_days,
+        num_contractions=num_contractions,
+        tightest_contraction_pct=tightest_contraction_pct,
+        volume_dry_up_pct=volume_dry_up_pct,
+        rs_vs_spy_6m=rs_vs_spy_6m,
+        distance_from_52w_high_pct=distance_from_52w_high_pct,
+        distance_from_200sma_pct=distance_from_200sma_pct,
+        earnings_date_next=earnings_date_next,
+        days_to_earnings=days_to_earnings,
+        earnings_warning=has_earn,
+        macro_event_warning=has_macro,
+        market_status_label=market_status_label,
+        spy_above_50sma=spy_above_50sma,
+        spy_10ema_above_20ema=spy_10ema_above_20ema,
     )
 
 
@@ -295,6 +490,7 @@ def scan_daily(
         as_of_date      date
         candidates      list[ScanResult]   — passed filters AND have VCP
         all_results     list[ScanResult]   — all tickers (for debugging/logging)
+        market_status   dict               — raw market status dict
     """
     settings = get_settings()
     as_of_date = as_of_date or date.today()
@@ -314,6 +510,7 @@ def scan_daily(
             "as_of_date": as_of_date,
             "candidates": [],
             "all_results": [],
+            "market_status": market_status,
         }
 
     # ------------------------------------------------------------------
@@ -337,7 +534,7 @@ def scan_daily(
         try:
             result = _scan_ticker(
                 session, ticker_row, as_of_date, macro_event_dates, settings,
-                preloaded_dfs, earnings_dates,
+                preloaded_dfs, earnings_dates, market_status,
             )
             all_results.append(result)
         except Exception as exc:
@@ -346,8 +543,6 @@ def scan_daily(
     # ------------------------------------------------------------------
     # Step 4: Collect candidates (passed all filters AND have VCP)
     # ------------------------------------------------------------------
-    # detect_vcp already rejects below-threshold setups; this guard is an
-    # extra safety net in case detect_vcp is called outside the scanner.
     candidates = [
         r for r in all_results
         if not r.failed_filters
@@ -370,6 +565,24 @@ def scan_daily(
 
     candidates.sort(key=_rank_key)
 
+    # ------------------------------------------------------------------
+    # Step 6: Compute rs_rank (percentile vs full universe)
+    # ------------------------------------------------------------------
+    rs_for_rank = [
+        (r.rs_score, r.symbol)
+        for r in all_results
+        if r.rs_score is not None
+    ]
+    rs_for_rank.sort(key=lambda x: x[0])
+    n_ranked = len(rs_for_rank)
+    rs_rank_by_symbol: dict[str, int] = {}
+    if n_ranked > 0:
+        for rank_idx, (_, sym) in enumerate(rs_for_rank):
+            rs_rank_by_symbol[sym] = max(1, round((rank_idx + 1) / n_ranked * 100))
+
+    for candidate in candidates:
+        candidate.rs_rank = rs_rank_by_symbol.get(candidate.symbol)
+
     logger.info(
         "scan_daily(%s): %d candidates from %d tickers (market healthy)",
         as_of_date,
@@ -381,4 +594,5 @@ def scan_daily(
         "as_of_date": as_of_date,
         "candidates": candidates,
         "all_results": all_results,
+        "market_status": market_status,
     }

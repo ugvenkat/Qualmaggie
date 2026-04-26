@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## System Status — Fully Working
 
-All services running and verified as of 2026-04-25:
+All services running and verified as of 2026-04-26:
 - **Backend**: Python FastAPI on `http://localhost:8000`
 - **Frontend**: Next.js on `http://localhost:3000`
 - **Database**: SQL Server — `QualMaggie` db, 10 tables
@@ -17,7 +17,7 @@ All services running and verified as of 2026-04-25:
 | Dashboard | `/` | Market status, scan trigger |
 | Backtest | `/backtest` | Synchronous run (1800s timeout), equity curve, trades table |
 | Positions | `/positions` | Open positions tab + History tab (`IsLive=0`) |
-| Data Management | `/data` | CSV upload, yfinance update, earnings update, DB status table |
+| Data Management | `/data` | CSV upload, yfinance update, earnings update, DB status table, Reset Backtests, Hard Reset |
 | Performance | `/performance` | Equity curve, monthly heatmap, trade distribution bar chart |
 | Settings | `/settings` | Editable form, writes settings.json, clears lru_cache on save |
 
@@ -85,7 +85,7 @@ uv pip install fastapi uvicorn python-multipart pyodbc sqlalchemy yfinance panda
    "StopLossADRMultiplier": 1.8,
    "MinStopPct": 4.0
    ```
-   Also add `MinStopPct` field to `Settings` class and `calculate_initial_stop()` — see V10 section below.
+   `MinStopPct` is already in `Settings` class and `calculate_initial_stop()` — just update settings.json.
 
 3. **Fix IsActive column name** — audit full codebase for `Active` vs `IsActive` mismatch in queries and ORM references.
 
@@ -99,6 +99,40 @@ uv pip install fastapi uvicorn python-multipart pyodbc sqlalchemy yfinance panda
    ```bash
    python scripts/morning_routine.py
    ```
+
+---
+
+## Strategy Enhancements (2026-04-26)
+
+Five scanner/backtest improvements implemented in this session:
+
+### Task 1 — Enhanced Scanner Signal Output ✅
+`backend/core/scanner.py` and `backend/api/routes_scan.py` now return 30+ fields per candidate:
+- **Entry**: `entry_price` (close×1.002 estimate), `pivot_point`, `distance_from_pivot_pct`
+- **Stop & risk**: `stop_loss_price`, `stop_loss_pct`, `adr`, `adr_pct`, `max_stop_as_adr_fraction`
+- **Sizing**: `recommended_shares`, `recommended_position_size_usd`, `max_loss_usd`
+- **Setup quality**: `setup_quality_score` (0–10), `prior_move_pct`, `base_length_days`, `num_contractions`, `tightest_contraction_pct`, `volume_dry_up_pct`
+- **RS**: `rs_rank` (percentile vs universe), `rs_vs_spy_6m`, `distance_from_52w_high_pct`, `distance_from_200sma_pct`
+- **Warnings**: `earnings_date`, `days_to_earnings`, `earnings_warning`, `macro_event_warning`
+- **Market**: `market_status` ("Healthy"/"Neutral"/"Weak"), `spy_above_50sma`, `spy_10ema_above_20ema`
+
+`pattern_detector.py` now includes `base_length_days` in the VCP result dict.
+
+### Task 2 — Backtest Reset Feature ✅
+- **`sql/reset_backtests.sql`** — soft reset (deletes Blacklist, OpenPositions, PortfolioSnapshot, PerformanceReport, Trades, BacktestRuns; reseeds identities)
+- **`sql/hard_reset.sql`** — hard reset (everything + EarningsDates, MacroEventDates, PriceData, Tickers)
+- **`POST /api/data/reset-backtests`** — runs soft reset, returns rows deleted per table
+- **`POST /api/data/hard-reset`** — requires `{"confirmation": "CONFIRM"}` in body
+- **Frontend**: "Reset Backtests" (yellow, window.confirm) and "Hard Reset" (red, type-CONFIRM dialog) buttons on `/data`
+
+### Task 3 — Entry Price Bug Fix ✅ (was already implemented)
+`backtester.py` already uses next-day open price for entry (`Fix 1` comment in `_process_day`). If N+1 data unavailable, trade is skipped. No code change needed.
+
+### Task 4 — Prior Move Check ✅ (was already implemented)
+`pattern_detector.py` already rejects VCPs where `prior_move_pct < MinPriorMovePct` (30%). The check is in `detect_vcp()` → `_check_prior_move()`. No code change needed.
+
+### Task 5 — ADR Stop Rejection ✅
+`MaxStopAsADRFraction: 0.67` was already in settings.json and backtester. **New**: the same rejection now also runs in `_scan_ticker` (scanner) so live-scan candidates are pre-filtered consistently with the backtester. Adds `"StopTooWide"` to `failed_filters` when `stop_distance > ADR × 0.67`.
 
 ---
 
@@ -178,7 +212,7 @@ QualMaggie/
 │       ├── routes_market.py            # GET /api/market/status
 │       ├── routes_scan.py              # POST /api/scan/run
 │       ├── routes_positions.py         # GET /api/positions, /api/positions/history, /api/trades
-│       ├── routes_data.py              # POST /api/data/import-csv, /update, /update-earnings; GET /api/data/status
+│       ├── routes_data.py              # POST /api/data/import-csv, /update, /update-earnings, /reset-backtests, /hard-reset; GET /api/data/status
 │       ├── routes_performance.py       # GET /api/performance, /api/performance/snapshots
 │       ├── routes_backtest.py          # POST /api/backtest/run; GET /api/backtest, /{id}, /{id}/trades, /{id}/snapshots
 │       └── routes_settings.py          # GET /api/settings, POST /api/settings
@@ -382,7 +416,7 @@ frontend/
 
 **API client (`lib/api.ts`) exports:**
 `getMarketStatus`, `runScan`, `getOpenPositions`, `getPositionsHistory`, `getTrades`,
-`updatePrices`, `updateEarnings`, `importFolder`, `importCsvFile`, `getDataStatus`,
+`updatePrices`, `updateEarnings`, `importFolder`, `importCsvFile`, `getDataStatus`, `resetBacktests`, `hardReset`,
 `getPerformance`, `getSnapshots`, `getSettings`, `saveSettings`,
 `runBacktest`, `listBacktests`, `getBacktest`, `getBacktestTrades`, `getBacktestSnapshots`
 

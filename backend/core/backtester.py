@@ -54,6 +54,7 @@ from backend.services.earnings_updater import load_earnings_by_symbol
 from backend.db.database import get_engine
 from backend.db.models import (
     BacktestRun,
+    Blacklist,
     MacroEventDate,
     OpenPosition,
     PerformanceReport,
@@ -571,31 +572,45 @@ def run_backtest(
     settings = get_settings()
 
     # ------------------------------------------------------------------
-    # 0. Clean up orphaned OpenPositions from incomplete prior runs.
+    # 0. Clean up all orphaned rows from incomplete prior runs.
     #    Covers 'Partial' (crashed), 'Running' (server killed mid-run),
-    #    and 'Failed' (future-proofed).  Wrapped so a cleanup failure
-    #    never blocks the new run from starting.
+    #    and 'Failed' (future-proofed).
+    #
+    #    Cleans Blacklist + PortfolioSnapshot + OpenPositions so stale
+    #    rows can't interfere with the new run's session state or cause
+    #    Numeric overflow from pre-fix stop values.
+    #
+    #    Wrapped so a cleanup failure never blocks the new run from starting.
     # ------------------------------------------------------------------
     try:
-        stale_ids = session.execute(
+        stale_ids = list(session.execute(
             select(BacktestRun.backtest_run_id).where(
                 BacktestRun.status.in_(["Partial", "Running", "Failed"])
             )
-        ).scalars().all()
+        ).scalars().all())
         if stale_ids:
-            result = session.execute(
+            bl = session.execute(
+                delete(Blacklist).where(Blacklist.backtest_run_id.in_(stale_ids))
+            ).rowcount
+            ps = session.execute(
+                delete(PortfolioSnapshot).where(
+                    PortfolioSnapshot.backtest_run_id.in_(stale_ids)
+                )
+            ).rowcount
+            op = session.execute(
                 delete(OpenPosition).where(
                     OpenPosition.backtest_run_id.in_(stale_ids)
                 )
-            )
+            ).rowcount
             session.commit()
             logger.info(
-                "run_backtest: removed %d orphaned OpenPositions from %d stale run(s) %s",
-                result.rowcount, len(stale_ids), list(stale_ids),
+                "run_backtest: stale run cleanup — %d run(s) %s: "
+                "OpenPositions=%d, PortfolioSnapshot=%d, Blacklist=%d",
+                len(stale_ids), list(stale_ids), op, ps, bl,
             )
     except Exception as exc:
         logger.warning(
-            "run_backtest: stale OpenPositions cleanup failed (continuing): %s", exc
+            "run_backtest: stale data cleanup failed (continuing): %s", exc
         )
         try:
             session.rollback()

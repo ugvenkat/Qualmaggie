@@ -422,6 +422,7 @@ def detect_vcp(
     # ------------------------------------------------------------------
     first_high_date = contractions[0]["high_date"]
     last_low_date = contractions[-1]["low_date"]
+    base_days: int | None = None
     if first_high_date is not None and last_low_date is not None:
         # Normalize to date objects for subtraction
         fhd = first_high_date.date() if hasattr(first_high_date, "date") else first_high_date
@@ -504,6 +505,7 @@ def detect_vcp(
         "prior_move_pct": round(prior_move_pct, 4),
         "has_higher_lows": has_higher_lows,
         "quality_score": quality_score,
+        "base_length_days": base_days,
     }
 
     logger.debug(
