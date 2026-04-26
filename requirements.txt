@@ -1,0 +1,28 @@
+# QualMaggie — Python 3.11 dependencies
+# Install with:  uv pip install -r requirements.txt
+
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Database
+sqlalchemy>=2.0.36
+pyodbc>=5.2.0              # SQL Server ODBC driver wrapper
+
+# Settings & validation
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# Data processing
+pandas>=2.2.0
+numpy>=2.1.0
+
+# HTTP & scheduling
+httpx>=0.28.0              # Async HTTP client (macro event / earnings fetching)
+apscheduler>=3.10.0        # Scheduled daily scans
+
+# Price data
+yfinance>=0.2.50           # Fallback / supplemental data source
+
+# Utilities
+python-dotenv>=1.0.0       # .env loading for DB connection string

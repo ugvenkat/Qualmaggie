@@ -1,0 +1,26 @@
+# Ignore frontend node modules
+frontend/node_modules/
+
+# Python virtual environment
+.venv/
+
+# Your data folder
+dataInput-v1/
+
+# Optional but recommended additions
+# -------------------------------
+
+# Node
+frontend/dist/
+frontend/build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

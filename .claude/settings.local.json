@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(python -c \":*)",
+      "Bash(uv pip:*)",
+      "Bash(.venv/Scripts/python.exe -c \":*)",
+      "Bash(npx create-next-app@latest frontend --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const p = require\\(''./node_modules/@tanstack/react-table/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/recharts/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(curl:*)"
+    ]
+  }
+}
