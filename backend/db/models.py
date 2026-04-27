@@ -24,10 +24,46 @@ from sqlalchemy import (
     Numeric,
     String,
     Text,
+    TypeDecorator,
     UniqueConstraint,
     text,
 )
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+
+
+class RoundedNumeric(TypeDecorator):
+    """
+    Drop-in replacement for Numeric(precision, scale) that silently rounds
+    float values to `scale` decimal places before handing them to pyodbc.
+
+    This prevents the pyodbc "numeric value out of range" error that occurs
+    when pandas/numpy float64 values (e.g. EMA = 151.60324986605232) are
+    passed directly into a DECIMAL(18,4) column — the ODBC driver does not
+    auto-truncate and raises instead.
+
+    Usage: replace Numeric(18, 4) with RoundedNumeric(18, 4) in mapped_column().
+    No changes needed at call sites — rounding is applied automatically on every
+    bind (INSERT and UPDATE).
+    """
+
+    impl = Numeric
+    cache_ok = True
+
+    def __init__(self, precision: int, scale: int, **kw):
+        self._scale = scale
+        super().__init__(precision, scale, **kw)
+
+    def process_bind_param(self, value, dialect):
+        """Round to 'scale' decimal places before sending to the driver."""
+        if value is None:
+            return None
+
+        try:
+            return round(float(value), self._scale)
+        except (TypeError, ValueError):
+            return None  # NaN / inf - let the DB column nullability handle it
+
+
 
 # SQL Server expression used as server-side default for all CreatedAt / LastUpdated columns.
 # Declaring it here means SQLAlchemy fetches the generated value after INSERT and

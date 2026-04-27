@@ -96,8 +96,28 @@ def _compute_rs_score(
     return stock_return / spy_return
 
 
-def _nan_to_none(value: float) -> Optional[float]:
-    """Convert NaN / inf to None for SQLAlchemy NULL insertion."""
+# indicators.PY
+
+# indicators.PY
+
+def _safe_decimal(value: float, scale: int, max_magnitude: Optional[float] = None) -> Optional[float]:
+    """
+    Prepare a float for insertion into a DECIMAL(p, scale) column via pyodbc.
+
+    Steps applied in order:
+      1. NaN / inf / None   -> return None
+      2. Magnitude check    -> return None if abs(value) > max_magnitude
+                               (DECIMAL(10,6) only holds up to 9999.999999)
+      3. Round to 'scale'   -> prevents precision overflow
+
+    WHY THIS IS NEEDED
+    ------------------
+    session.execute(update(Model), list_of_dicts) bypasses SQLAlchemy's
+    TypeDecorator.process_bind_param entirely. The pyodbc driver raises
+    "numeric value out of range" for two distinct reasons:
+        a) Too many decimal places: 151.60324986605232 -> DECIMAL(18,4)  [step 3]
+        b) Value too large for column: ATRPct=15000.0 -> DECIMAL(10,6)   [step 2]
+    """
     if value is None:
         return None
     try:
@@ -105,20 +125,26 @@ def _nan_to_none(value: float) -> Optional[float]:
             return None
     except (TypeError, ValueError):
         return None
-    return float(value)
+    
+    v = float(value)
+    if max_magnitude is not None and abs(v) > max_magnitude:
+        return None # store NULL rather than error
+        
+    return round(v, scale)
 
 
-# DECIMAL(10,6) allows 4 integer digits → max |value| = 9999.9999
-_DECIMAL_10_6_MAX = 9999.9999
+def _nan_to_none(value: float) -> Optional[float]:
+    """Round to 4 d.p. and convert NaN/inf to None. For DECIMAL(18, 4) columns."""
+    return _safe_decimal(value, 4)
+
 
 def _clamp_decimal10_6(value: float) -> Optional[float]:
-    """Clamp to DECIMAL(10,6) range after NaN/inf check. Returns None if out-of-range would lose meaning."""
-    v = _nan_to_none(value)
-    if v is None:
-        return None
-    if abs(v) > _DECIMAL_10_6_MAX:
-        return None  # extreme outlier — store NULL rather than silently truncate
-    return v
+    """
+    Round to 6 d.p., clamp magnitude, convert NaN/inf to None.
+    For DECIMAL(10, 6) columns - only 4 digits before decimal point,
+    so max representable value is 9999.999999.
+    """
+    return _safe_decimal(value, 6, max_magnitude=9999.999999)
 
 
 # ---------------------------------------------------------------------------
@@ -276,19 +302,35 @@ def calculate_and_store(symbol: str, session: Session) -> int:
     # ------------------------------------------------------------------
     # Bulk UPDATE — only the indicator columns; VolumeMA20 excluded
     # ------------------------------------------------------------------
-    records = [
-        {
+    records = []
+    for row in df.itertuples(index=False):
+        for _col, _raw in [("SMA50", row.SMA50), ("SMA200", row.SMA200),
+                        ("EMA10", row.EMA10), ("EMA20", row.EMA20),
+                        ("ATRPct", row.ATRPct), ("ADR", row.ADR),
+                        ("RSScore", row.RSScore)]:
+            if _raw is not None:
+                try:
+                    import math as _math
+                    if not _math.isnan(float(_raw)) and not _math.isinf(float(_raw)):
+                        _fv = float(_raw)
+                        _limit = 9999.999999 if _col in ("ATRPct", "RSScore") else 99999999999999.9999
+                        if abs(_fv) > _limit:
+                            logger.error("RAW OVERFLOW %s pid=%s col=%s raw_val=%.10f limit=%s",
+                                        symbol, row.price_data_id, _col, _fv, _limit)
+                except Exception:
+                    logger.error("RAW UNPROCESSABLE %s pid=%s col=%s raw_val=%r",
+                                symbol, row.price_data_id, _col, _raw)
+
+        records.append({
             "price_data_id": int(row.price_data_id),
-            "sma50": _nan_to_none(row.SMA50),
-            "sma200": _nan_to_none(row.SMA200),
-            "ema10": _nan_to_none(row.EMA10),
-            "ema20": _nan_to_none(row.EMA20),
-            "atr_pct": _clamp_decimal10_6(row.ATRPct),
-            "adr": _nan_to_none(row.ADR),
-            "rs_score": _clamp_decimal10_6(row.RSScore),
-        }
-        for row in df.itertuples(index=False)
-    ]
+            "sma50":         _nan_to_none(row.SMA50),
+            "sma200":        _nan_to_none(row.SMA200),
+            "ema10":         _nan_to_none(row.EMA10),
+            "ema20":         _nan_to_none(row.EMA20),
+            "atr_pct":       _clamp_decimal10_6(row.ATRPct),
+            "adr":           _nan_to_none(row.ADR),
+            "rs_score":      _clamp_decimal10_6(row.RSScore),
+        })
 
     session.execute(update(PriceData), records)
     logger.info("%s: updated indicators on %d rows", symbol, len(records))

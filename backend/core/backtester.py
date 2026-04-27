@@ -505,6 +505,7 @@ def _generate_performance_report(
         if losing_trades > 0 else 0.0
     )
     profit_factor  = (sum(wins) / abs(sum(losses))) if losses and sum(losses) != 0 else 0.0
+    profit_factor  = min(profit_factor, 9999.9999) # cap to DECIMAL(8,4) max
     total_return_pct = (final_capital - initial_capital) / initial_capital if initial_capital > 0 else 0.0
 
     snapshots = session.execute(
